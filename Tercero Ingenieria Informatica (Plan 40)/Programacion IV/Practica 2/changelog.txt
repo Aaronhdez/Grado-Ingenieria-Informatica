@@ -1,0 +1,16 @@
+Añadidos Divs a las sections en main
+Los divs añadidos asumen las id correspondientes de sus secciones, para poder mostrarse como flex
+################
+Eliminados los id enindex.html
+Se crean las clase content, cont_img y cont_text. Se actualizan sus estilos en index.css
+Se reorganiza el encabezado en especialidades.html respecto al original. se actualizan las clase para que 
+se ajuste al nuevo estándar
+Se envuelve el section de especialidades en un div sobre el cual se aplica el padding
+############### 4/3/21
+Suprimida la clase navlink
+reestructurados la cabecera y el pie de página, se extraen a un archivo externo que importa el main.css
+se insertan dos barras de navegación superio e indferior
+############### 5/3/21
+Se reestructura la página de contacto. Permanece igual la estructura genera, se modifican 
+el header y el footer para mantener la estructura indicada en el resto de páginas
+Se reestructuran las páginas de especialidad.

@@ -1,0 +1,60 @@
+@import url("main.css");
+
+.content {
+    display: flex;
+}
+
+.cont_text {
+    width: 70%;
+    flex: 0.7;
+}
+
+.cont_img {
+    width: 30%;
+    flex: 0.3;
+}
+
+.flex_content {
+    padding: 1% 1% 1% 1%;
+    color: green;
+}
+
+.flex_content {
+    display: flex;
+}
+
+.flex_content_tab {
+    width: 75%;
+}
+
+.flex_content_tab label {
+    font-weight: bold;
+}
+
+.flex_content_img {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex_content h1 {    
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+}
+
+.flex_contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.flex_contact_tab { 
+    align-items: center;
+}
+
+.flex_contact_tab table { 
+    width: 100%;
+    padding: 1% 1.5% 1% 1.5%;
+}

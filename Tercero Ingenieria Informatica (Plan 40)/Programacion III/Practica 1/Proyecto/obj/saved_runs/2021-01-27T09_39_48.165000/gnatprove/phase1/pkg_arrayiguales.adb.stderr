@@ -1,0 +1,9 @@
+pkg_arrayiguales.ads:19:43: missing arrow
+pkg_arrayiguales.ads:22:43: missing arrow
+pkg_arrayiguales.ads:23:35: missing ";"
+pkg_arrayiguales.ads:25:18: statement expected
+pkg_arrayiguales.ads:25:24: reserved word "some" cannot be used as identifier
+pkg_arrayiguales.ads:27:18: reserved word "else" cannot be used as identifier
+pkg_arrayiguales.ads:29:44: extra ")" ignored
+pkg_arrayiguales.ads:30:01: "end loop;" expected for "loop" at line 25
+pkg_arrayiguales.ads:30:01: "end if;" expected for "if" at line 24

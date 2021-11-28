@@ -1,0 +1,55 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -g
+A -fstack-check
+A -gnata
+A -gnato
+A -gnat12
+A -gnatwa
+A -gnateE
+A -gnatc
+P GP FX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U pkg_arrayiguales%b	pkg_arrayiguales.adb	3009776e OO PK
+
+U pkg_arrayiguales%s	pkg_arrayiguales.ads	690a7224 OO PK
+
+D pkg_arrayiguales.ads	20210127095130 690a7224 pkg_arrayiguales%s
+D pkg_arrayiguales.adb	20210127095152 5903054a pkg_arrayiguales%b
+D system.ads		20210115194656 32a08138 system%s
+G a Z
+X 1 pkg_arrayiguales.ads
+2K9*Pkg_arrayIguales 30l5 30e21 2|1b14 25l5 25t21
+6A9*T_Table(integer)<integer> 9r41 9r63 2|3r40 4r34
+7i4*Min{integer}
+9U14*arrayIguales 9>28 9>50 9<72 2|3b14 23l8 23t20
+9a28 Vector1{6A9} 12r32 13r15 15r17 17r17 19r30 20r21 22r30 25r34 26r22 28r31
+. 29r20 2|3b27 8r16 8r33 9r13 16r49 17r37 19r48 20r37
+9a50 Vector2{6A9} 12r41 13r32 17r33 23r21 26r36 29r33 2|3b49 9r27 17r51 20r50
+9b72 resultado{boolean} 12r18 24r23 2|4b44 6m7 10m13 15r35 15r48
+19i25 k{integer} 20r29
+22i25 k{integer} 23r29
+25i29 i{integer} 26r30 26r44
+28i26 j{integer} 29r28 29r41
+X 2 pkg_arrayiguales.adb
+8i11 i{integer} 9r21 9r35 16r66 19r65
+16i44 k{integer} 17r45 17r59
+19i43 k{integer} 20r45 20r58
+
+QQ SPARKVERSION SPARK Community 2020 (20200818)
+GG EK_DIRECT_CALLS pkg_arrayiguales__arrayiguales 0
+GG EK_GLOBALS pkg_arrayiguales__arrayiguales local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 pkg_arrayiguales proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS pkg_arrayiguales 0
+GG EK_GLOBALS pkg_arrayiguales local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 1 pkg_arrayiguales__min FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE pkg_arrayiguales__arrayiguales FALSE FALSE FALSE FALSE TRUE pkg_arrayiguales VISIBLE_PART
+GG EK_FLOW_SCOPE pkg_arrayiguales TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

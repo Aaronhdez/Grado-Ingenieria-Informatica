@@ -1,0 +1,46 @@
+@media print {
+    
+    body {
+        color: black;
+    }
+    
+    footer {
+        display: none;
+    }
+    
+    section {
+        color: black;
+    }
+    
+    header {
+        display: none;
+    }
+
+    h1 {
+        color: darkgreen;    
+    }
+    
+    h2 {
+        color: darkgreen;
+    }
+    
+    a {
+        display: none;
+    }
+
+    .content {
+        display: block;
+    }
+    
+    .cont_text {
+        display: block;
+    }
+    
+    .cont_img {
+        display: none;
+    }
+    
+    .hideOnPrint {
+        display: none;
+    }
+}

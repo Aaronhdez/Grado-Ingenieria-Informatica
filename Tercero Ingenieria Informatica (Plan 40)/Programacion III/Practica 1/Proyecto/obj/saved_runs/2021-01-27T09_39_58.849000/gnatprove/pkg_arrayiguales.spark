@@ -1,0 +1,107 @@
+{
+  "spark": [
+    {
+      "name": "Pkg_arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Pkg_arrayIguales.arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 11,
+      "col": 27,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 11,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 12,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Pkg_arrayIguales.arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 2.98400002066046E-04,
+    "flow analysis": 1.54249998740852E-03,
+    "marking": 2.40800000028685E-04,
+    "globals (basic)": 1.05950003489852E-03
+  }
+}

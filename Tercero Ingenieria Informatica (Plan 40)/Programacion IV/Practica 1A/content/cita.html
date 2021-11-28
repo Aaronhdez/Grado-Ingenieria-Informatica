@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+        <header>
+            <img id="main_logo" src="./files/logo.png" alt="">
+            <nav>
+                <a href="../especialidades.html">Especialidades</a>
+                <a href="../index.html">Volver</a>
+            </nav>
+            <h1>Formulario de solicitud de cita</h1>
+        </header>
+        <main>
+            <section>
+                <form action="">
+                    <table>
+                        <tr>
+                            <th>Datos Personales</th>
+                        </tr>
+                        <tr>
+                            <td><label for="fname">Nombre</label></td>
+                            <td><input type="text" id="fname" name="fname"></td>
+                            <td><label for="fsurname">Apellidos</label></td>
+                            <td><input type="text" id="fsurname" name="fsurname"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fweigth">Peso (kgs.)</label></td>
+                            <td><input type="text" id="fweight" name="fweight"></td>
+                            <td><label for="fheight">Altura</label></td>
+                            <td><input type="text" id="fheight" name="fheight"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fsex">Sexo</label></td>
+                            <td>
+                                <input type="radio" id="male" name="male" value="male">
+                                <label for="male">H</label>
+                                <input type="radio" id="female" name="female" value="male">
+                                <label for="female">M</label>
+                                <input type="radio" id="other" name="other" value="other">
+                                <label for="other">O</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Datos de contacto</th>
+                        </tr>
+                        <tr>
+                            <td><label for="fsocins">Número Seg.Social</label></td>
+                            <td><input type="text" id="fsocins" name="fsocins"></td>
+                            <td><label for="fdate">Fecha de nacimiento</label></td>
+                            <td><input type="text" id="fdate" name="fdate" value="DD/MM/AAAA"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="ftel">Número de teléfono</label></td>
+                            <td><input type="text" id="ftel" name="ftel"></td>
+                            <td><label for="fmail">Correo electrónico</label></td>
+                            <td><input type="text" id="fmail" name="fmail"></td>
+                        </tr>
+                        <tr>
+                            <th>Indicar Especialidad</th>
+                        </tr>
+                        <tr>
+                            <td><label>Especialidad: </label></td>
+                            <td>
+                                <select name="especialidades" id="especialidades">
+                                    <option value="C1">Cardiología</option>
+                                    <option value="P1">Pediatría</option>
+                                    <option value="G1">Geriatría</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" id="submit" value="Solicitar">
+                </form>    
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <a href="../especialidades.html">Especialidades</a>
+                <a href="../index.html">Volver</a>
+                <h6>Sitio web creado con DummySoft</h6>    
+                <p><small>The content is licensed under a Creative Commons Attribution-ShareAlike 2.5 Generic License.</small></p>
+            </nav>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,1 @@
+{"global_gen_mode":true,"check_mode":false,"debug":false,"flow_advanced_debug":false,"flow_generate_contracts":true,"file_specific":{"Ada":{"no_loop_unrolling":false,"no_inlining":false,"info_messages":false}}}

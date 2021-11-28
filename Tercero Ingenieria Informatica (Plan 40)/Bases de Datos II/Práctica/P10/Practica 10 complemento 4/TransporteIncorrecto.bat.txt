@@ -1,0 +1,37 @@
+REM Inserte comentarios para explicar detalladamente el comportamiento de las situaciones mostradas
+REM Realice las correciones pertinentes, en este fichero, para que funcione adecuadamente
+REM Comente las correcciones detalladamente
+
+copy /V F:\oracle\product\10.2.0\oradata\pru\prueba01 F:\oracle\product\10.2.0\oradata\orcl\prueba01
+if errorlevel 1 goto error
+copy /V F:\oracle\product\10.2.0\oradata\pru\prueba02 C:\oradata\orcl\prueba02
+if errorlevel 1 goto error
+copy /V F:\oracle\product\10.2.0\oradata\pru\prueba_temp F:\oracle\product\10.2.0\oradata\orcl\prueba_temp
+if errorlevel 1 goto error
+
+sqlplus system/orcl@pru @PonerSoloLectura.sql
+if errorlevel 1 goto error
+
+del /Q F:\oracle\product\10.2.0\admin\area_exportacion\tbs_transportables.dmp
+if errorlevel 1 goto error
+
+expdp system/orcl@pru transport_tablespaces=prueba,prueba_temp directory=area_exportacion dumpfile=tbs_transportables transport_full_check=y
+if errorlevel 1 goto error
+
+impdp system/orcl@orcl directory=area_exportacion dumpfile=tbs_transportables transport_datafiles='F:\oracle\product\10.2.0\oradata\orcl\prueba01','C:\oradata\orcl\prueba02','F:\oracle\product\10.2.0\oradata\orcl\prueba_temp'
+find "ORA-39123" F:\oracle\product\10.2.0\admin\area_exportacion\import.log >nul2>nul && goto error
+
+sqlplus system/orcl@orcl @PonerLectEscr.sql
+if errorlevel 1 goto error
+
+sqlplus system/orcl@pru @PonerLectEscr.sql
+if errorlevel 1 goto error
+
+sqlplus system/orcl@pru @BorraTablespaces.sql
+if errorlevel 1 goto error
+
+goto fin
+:error
+echo PROCESO ABORTADO. SE HA PRODUCIDO UN ERROR
+:fin
+

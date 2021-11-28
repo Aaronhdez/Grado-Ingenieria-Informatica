@@ -1,0 +1,14 @@
+20210127094438
+-c
+-x
+ada
+-gnatA
+-g
+-fstack-check
+-gnata
+-gnato
+-gnat12
+-gnatwa
+-gnateE
+-gnatc
+-gnates=D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion III\Entrega Final P1\Proyecto\obj\gnatprove\daaefa0c.tmp

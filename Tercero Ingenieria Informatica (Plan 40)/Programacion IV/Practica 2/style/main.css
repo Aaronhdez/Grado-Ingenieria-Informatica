@@ -1,0 +1,236 @@
+@import url("./print.css");
+/*@import url("./index.css");*/
+/*@import url("./content.css");*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media screen {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
+    main {
+        background-color: white;
+        border-radius: 10px;
+        font-family: verdana;
+    }
+    
+    section {
+        color: green;
+        padding: 0.5% 0.75% 2.5%;
+        animation: fadein 2s;
+    }
+    
+    h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0.5% 0.5% 0.5% 0.5%;
+        color: white;
+        background-image: radial-gradient(ellipse at center top, rgba(10,160,15,0.4) 0%,  rgba(10,160,15,0.7)  100%); 
+    }
+    
+    .cont_img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* HEADER AND FOOTER*/
+    
+    header, footer {
+        animation: fadein 2s;
+    }
+
+    .print_header {
+        display: none;
+    }
+
+    .main_header {
+        padding: 0% 0% 0% 1.5%;
+        margin-bottom: 0;
+        color: #333;
+        /*background: rgba(10,160,15,0.7); /* Old browsers */
+        background-image: radial-gradient(ellipse at center top, rgba(10,160,15,0.4) 0%,  rgba(10,160,15,0.7)  100%); 
+    }
+    
+    .main_header img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    /* ------------ FOOTER ---------------- */
+    
+    .main_footer {
+        padding: 1.5% 1.5% 1.5% 1.5%;
+        background-image: radial-gradient(ellipse at center top, rgba(10,160,15,0.4) 0%,  rgba(10,160,15,0.7)  100%); 
+    }
+    
+    .footer_content {
+        display: flex;
+    }
+    
+    .footer_box {
+        flex: auto;
+        text-align: center;
+    }
+    
+    .footer_box img {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    .footer_box li {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    
+    .footer_box a, .footer_box p  {
+        color: white;
+    }
+    
+    .footer_low {
+        color: white;
+    }
+    
+    .footer_low p, .footer_low h6 {
+        text-align: center;
+    }
+    
+    .footer_low_text {
+        font-weight: bold;
+    }
+    
+    /* ------------ NAVBARS --------------- */
+    
+    .navigation {
+        overflow: hidden;
+        background-color: green;
+    }
+    
+    .navigation a {
+        float: left;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;  
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+    
+    .navigation a:hover {
+        color: green;
+        background-color: lightgreen;
+    }
+    
+    .navigation_right {
+        float: right;
+    }
+    
+    /*------------- GENERIC -------------*/
+    
+    td {
+        padding: 1% 1% 1% 1%;
+    }
+    
+    a {
+        font-weight: bold;
+        color: darkgreen;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: lightgreen;
+    }
+    
+    /*------------- INDEX ---------------*/
+    
+    .content {
+        display: flex;
+    }
+    
+    .cont_text {
+        width: 70%;
+        flex: 0.7;
+    }
+    
+    .cont_img {
+        width: 30%;
+        flex: 0.3;
+    }
+    
+    /*------------ ESPECIALIDADES --------------*/
+    
+    .categories {
+        padding: 1% 5%;
+    }
+    
+    /*------------ CONTENT ---------------------*/
+    
+    .content {
+        display: flex;
+    }
+    
+    .cont_text {
+        width: 70%;
+        flex: 0.7;
+    }
+    
+    .cont_img {
+        width: 30%;
+        flex: 0.3;
+    }
+    
+    .flex_content {
+        padding: 1% 1% 1% 1%;
+        color: green;
+    }
+    
+    .flex_content {
+        display: flex;
+    }
+    
+    .flex_content_tab {
+        width: 75%;
+    }
+    
+    .flex_content_tab label {
+        font-weight: bold;
+    }
+    
+    .flex_content_img {
+        display: flex;
+        width: 25%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .flex_content h1 {    
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkgreen;
+    }
+    
+    .flex_contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    
+    .flex_contact_tab { 
+        align-items: center;
+    }
+    
+    .flex_contact_tab table { 
+        width: 100%;
+        padding: 1% 1.5% 1% 1.5%;
+    }
+}
+

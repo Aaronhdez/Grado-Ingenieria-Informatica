@@ -1,0 +1,2 @@
+pkg_arrayiguales.ads:7:14: unconstrained subtype not allowed (need initialization)
+pkg_arrayiguales.ads:7:14: provide initial value or explicit array bounds

@@ -1,0 +1,2 @@
+pkg_arrayiguales.adb:1:14: missing body for "arrayIguales" declared at pkg_arrayiguales.ads:9
+pkg_arrayiguales.adb:8:16: "Vector1" is undefined (more references follow)

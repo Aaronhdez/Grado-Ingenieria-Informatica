@@ -1,0 +1,88 @@
+{
+  "spark": [
+    {
+      "name": "Pkg_arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Pkg_arrayIguales.arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 9,
+      "col": 72,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 12,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Pkg_arrayIguales.arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 2.87000002572313E-04,
+    "flow analysis": 1.59350002650172E-03,
+    "marking": 2.57900013821200E-04,
+    "globals (basic)": 1.06779998168349E-03
+  }
+}

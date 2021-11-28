@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<Locations>
+  <Project>
+    <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_Par.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPrimo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPrimo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_Primo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_cuentaPrimos.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_cuentaPrimos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_cuentaPrimos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_primerPrimo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_primerPrimo.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_primerPrimo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\Tests_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_arrayIguales.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_cuentaPrimos.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_arrayIguales.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\Pkg_arrayiguales.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\Pkg_arrayiguales.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_marcapares.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_marcapares.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_marcaPares.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 15" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\tests_marcaPares.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 82" line=" 15" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_marcapares.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 13" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPrimo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 13" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPrimo.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_esPar.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 13" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_histoparimpar.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\Pkg_arrayiguales.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 16" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\Pkg_arrayiguales.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_cuentaPrimos.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\default.gpr</vfs_project>
+      <vfs_file>C:\Users\byjua\OneDrive\Escritorio\TerceroEII\P3\Desarrollov4\src\pkg_primerPrimo.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

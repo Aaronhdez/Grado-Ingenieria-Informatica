@@ -1,0 +1,1021 @@
+{
+  "spark": [
+    {
+      "name": "Pkg_arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 2
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Pkg_arrayIguales.arrayIguales",
+      "sloc": [
+        {
+          "file": "pkg_arrayiguales.ads",
+          "line": 9
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 11,
+      "col": 27,
+      "rule": "UNINITIALIZED",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 11,
+      "col": 6,
+      "rule": "GLOBAL_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 12,
+      "col": 6,
+      "rule": "DEPENDS_WRONG",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": {
+      },
+      "how_proved": "flow"
+    }
+  ],
+  "session_map": {
+    " 1": "D:\\Universidad\\OneDrive - Universidad de Las Palmas de Gran Canaria\\TERCERO\\Programacion III\\Entrega Final P1\\Proyecto\\obj\\gnatprove\\pkg_arrayiguales__arrayiguales"
+  },
+  "proof": [
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 9,
+      "col": 35,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 9,
+      "check_col": 35,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 17,
+      "col": 45,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 17,
+      "check_col": 45,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 17,
+      "col": 59,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 17,
+      "check_col": 59,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 20,
+      "col": 45,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 20,
+      "check_col": 45,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 20,
+      "col": 58,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 20,
+      "check_col": 58,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 4,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 15,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_INIT",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 31,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 15,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.adb",
+      "line": 15,
+      "col": 32,
+      "rule": "VC_LOOP_INVARIANT_PRESERV",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 965,
+              "time": 5.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.adb",
+      "check_line": 15,
+      "check_col": 32,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 5.00000007450581E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 26,
+      "col": 30,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 26,
+      "check_col": 30,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 26,
+      "col": 44,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 26,
+      "check_col": 44,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 29,
+      "col": 28,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 29,
+      "check_col": 28,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 29,
+      "col": 41,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 29,
+      "check_col": 41,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 20,
+      "col": 29,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 20,
+      "check_col": 29,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 1.99999995529652E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 23,
+      "col": 29,
+      "rule": "VC_INDEX_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21,
+              "time": 2.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 20,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 23,
+      "check_col": 29,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 2,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        }
+      }
+    },
+    {
+      "file": "pkg_arrayiguales.ads",
+      "line": 24,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Pkg_arrayIguales.arrayIguales",
+        "sloc": [
+          {
+            "file": "pkg_arrayiguales.ads",
+            "line": 9
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 3.00000000000000E-02
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "pkg_arrayiguales.ads",
+      "check_line": 24,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 2.99999993294477E-02
+        },
+        "Trivial": {
+          "count": 1,
+          "max_steps": 0,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Pkg_arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Pkg_arrayIguales.arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Pkg_arrayIguales.arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Pkg_arrayIguales.arrayIguales",
+          "sloc": [
+            {
+              "file": "pkg_arrayiguales.ads",
+              "line": 9
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 7.81250000000000E-02,
+    "codepeer results": 6.27999979769811E-05,
+    "init_why_sections": 4.02900011977181E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 1.56250000000000E-02,
+    "globals/properties (advanced)": 3.05299996398389E-04,
+    "gnatwhy3.transformations.eliminate_literal": 0.00000000000000E+00,
+    "gnatwhy3.run_vcs": 5.15625000000000E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 0.00000000000000E+00,
+    "flow analysis": 1.56859995331615E-03,
+    "gnatwhy3.transformations.simplify_formula": 0.00000000000000E+00,
+    "marking": 2.42699999944307E-04,
+    "translation of standard": 3.06229991838336E-03,
+    "gnatwhy3.register_vcs": 4.68750000000000E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 0.00000000000000E+00,
+    "globals (basic)": 1.79900001967326E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_inductive": 0.00000000000000E+00,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 1.56250000000000E-02,
+    "gnatwhy3.transformations.eliminate_builtin": 3.12500000000000E-02,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 1.87500000000000E-01
+  }
+}

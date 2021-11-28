@@ -1,0 +1,133 @@
+'2021-01-27T09:44:23.958000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pkg_arrayiguales.ads:7:04: extra ";" ignored
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:44:23.958000'
+'2021-01-27T09:44:33.302000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in D:\Universidad\OneDrive - Universidad de Las Palmas de Gran
+    Canaria\TERCERO\Programacion III\Entrega Final P1\Proyecto\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:44:33.302000'
+'2021-01-27T09:44:38.229000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in D:\Universidad\OneDrive - Universidad de Las Palmas de Gran
+    Canaria\TERCERO\Programacion III\Entrega Final P1\Proyecto\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:44:38.229000'
+'2021-01-27T09:48:44.476000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pkg_arrayiguales.adb:1:14: missing body for "arrayIguales" declared at pkg_arrayiguales.ads:9
+
+    pkg_arrayiguales.ads:7:14: unconstrained subtype not allowed (need initialization)
+
+    pkg_arrayiguales.ads:7:14: provide initial value or explicit array bounds
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:48:44.476000'
+'2021-01-27T09:49:06.739000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pkg_arrayiguales.ads:7:14: unconstrained subtype not allowed (need initialization)
+
+    pkg_arrayiguales.ads:7:14: provide initial value or explicit array bounds
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:49:06.739000'
+'2021-01-27T09:51:40.189000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pkg_arrayiguales.adb:1:14: missing body for "arrayIguales" declared at pkg_arrayiguales.ads:9
+
+    pkg_arrayiguales.adb:8:16: "Vector1" is undefined (more references follow)
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:51:40.189000'
+'2021-01-27T09:51:58.770000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in D:\Universidad\OneDrive - Universidad de Las Palmas de Gran
+    Canaria\TERCERO\Programacion III\Entrega Final P1\Proyecto\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:51:58.770000'
+'2021-01-27T09:57:41.864000':
+  category: GNATprove
+  files:
+  - D:\Universidad\OneDrive - Universidad de Las Palmas de Gran Canaria\TERCERO\Programacion
+    III\Entrega Final P1\Proyecto\obj\gnatprove
+  label: Examine Single File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    pkg_arrayiguales.ads:12:06: global "lower" is missing from input dependence list
+
+    pkg_arrayiguales.ads:12:06: add "null => lower" dependency to ignore this input
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-01-27T09:57:41.864000'
