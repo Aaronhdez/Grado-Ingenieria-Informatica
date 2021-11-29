@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1321293662 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	"math.h"
+
+1321293662 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_aritmeticas.h
+
+1480185457 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_relajacion.cpp
+	"mn_aritmeticas.h"
+	"mn_lapack.h"
+	"mn_relajacion.h"
+	<stdio.h.>
+
+1480184378 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_lapack.h
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+	<vector>
+
+1236089520 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117548780 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_version.h
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1480183461 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+
+1100620200 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1321296152 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108135320 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_subscript.h
+
+1100619360 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1480185477 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_relajacion.h
+	<stdlib.h>
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+	<vector>
+
+1480185398 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\relajacionescasas\main.cpp
+	<stdio.h>
+	"../mn_relajacion.h"
+	"../mn_lapack.h"
+	<stdlib.h>
+
+1547411709 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_relajacion_matrices_escasas_resuelto\mn_lapack.cpp
+	<stdio.h>
+	"mn_lapack.h"
+

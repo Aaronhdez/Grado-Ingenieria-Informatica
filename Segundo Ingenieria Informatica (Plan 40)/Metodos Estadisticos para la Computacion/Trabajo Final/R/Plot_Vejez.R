@@ -1,0 +1,10 @@
+setwd(".")
+library(knitr)
+library(readxl)
+Porc_vejez <- read_excel("Archivos/Porcentaje_vejez_R.xlsx")
+attach(Porc_vejez)
+plot(Porcentaje_vejez~Años,type = "l", col = "darkgreen", main = "Tasa de Vejez (2001-2018)",
+     xlab = "Años", ylab = "Tasa de Vejez", lwd=2)
+grid()
+points(Porcentaje_vejez~Años, col = "darkgreen", pch=19)
+points(Porcentaje_vejez~Años, type="h", col = "darkgreen", pch=19)

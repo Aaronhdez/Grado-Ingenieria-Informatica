@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Crout" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="Crout" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Unit filename="../aritmeticas.cpp" />
+		<Unit filename="../aritmeticas.h" />
+		<Unit filename="../crout.cpp" />
+		<Unit filename="../crout.h" />
+		<Unit filename="../lapack.cpp" />
+		<Unit filename="../lapack.h" />
+		<Unit filename="../tnt_array/tnt_array1d.h" />
+		<Unit filename="../tnt_array/tnt_array2d.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

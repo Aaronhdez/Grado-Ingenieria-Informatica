@@ -1,0 +1,13 @@
+Localizacion	Precio
+Madrid	325
+Salamanca	201
+Barcelona	157
+Castellon	162
+Badalona	164
+Zaragoza	101
+Malaga	211
+Teruel	188
+Cadiz	95
+Albacete	117
+Tenerife	188
+Lanzarote	121

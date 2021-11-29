@@ -1,0 +1,23 @@
+setwd(".")
+library(knitr)
+library(ggplot2)
+library(sqldf)
+library(DMwR2)
+library(pyramid)
+library(readxl)
+
+#Leemos la tabla creada
+poblacion <- read_excel("Archivos/E30260A_0023.xls", col_types = c("numeric", "numeric", "text", "text"))
+attach(poblacion)
+
+for(i in 2000:2018){
+  pyramid(as.data.frame(poblacion[Year==as.character((i)),1:3]),
+          Llab = "Hombres", 
+          Rlab="Mujeres",
+          Clab = "Edades",
+          AxisFM = "d",
+          Laxis = seq(0,100000,30000),
+          Raxis = seq(0,100000,30000),
+          main= paste("Población Canarias",as.character((i))))
+}
+

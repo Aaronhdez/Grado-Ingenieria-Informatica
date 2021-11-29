@@ -1,0 +1,29 @@
+setwd(".")
+library(knitr)
+
+#Apartado A
+x<-seq(5,7,0.01)
+s1<-1.1
+s2<-0.9
+n1<-100
+n2<-200
+Alfa<-0.02
+DPx<-dnorm(x,6,sqrt((s1^2/n1)+(s2^2/n2)))
+plot(x,DPx,type="l",col="black", lwd=2,ylab="Densidad de Probabilidad",xlab="Diferencia de Medias")
+grid()
+dcha<-(Alfa/2)
+xliminf<-qnorm(dcha,6,sqrt((s1^2/n1)+(s2^2/n2)))
+izqda<-(1-Alfa/2)
+xlimsup<-qnorm(izqda,6,sqrt((s1^2/n1)+(s2^2/n2)))
+
+xliminf
+xlimsup
+
+xv<-x[x>=xliminf & x <=xlimsup]
+yv<-DPx[x>=xliminf & x <=xlimsup]
+
+xv<-c(xv,xlimsup,xliminf)
+yv<-c(yv,DPx[1],DPx[1])
+polygon(xv,yv,col="grey",density=25,border="brown")
+abline(v=xliminf, col="red")
+abline(v=xlimsup, col="red")

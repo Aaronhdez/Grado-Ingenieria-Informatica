@@ -1,0 +1,88 @@
+"Nombre","Genero","Color_Pelo","Num_Pelis"
+"1","Luke Skywalker","male","blond",5
+"2","C-3PO","other","other",6
+"3","R2-D2","other","other",7
+"4","Darth Vader","male","other",4
+"5","Leia Organa","female","brown",5
+"6","Owen Lars","male","other",3
+"7","Beru Whitesun lars","female","brown",3
+"8","R5-D4","other","other",1
+"9","Biggs Darklighter","male","black",1
+"10","Obi-Wan Kenobi","male","other",6
+"11","Anakin Skywalker","male","blond",3
+"12","Wilhuff Tarkin","male","other",2
+"13","Chewbacca","male","brown",5
+"14","Han Solo","male","brown",4
+"15","Greedo","male","other",1
+"16","Jabba Desilijic Tiure","other","other",3
+"17","Wedge Antilles","male","brown",3
+"18","Jek Tono Porkins","male","brown",1
+"19","Yoda","male","other",5
+"20","Palpatine","male","other",5
+"21","Boba Fett","male","black",3
+"22","IG-88","other","other",1
+"23","Bossk","male","other",1
+"24","Lando Calrissian","male","black",2
+"25","Lobot","male","other",1
+"26","Ackbar","male","other",2
+"27","Mon Mothma","female","other",1
+"28","Arvel Crynyd","male","brown",1
+"29","Wicket Systri Warrick","male","brown",1
+"30","Nien Nunb","male","other",1
+"31","Qui-Gon Jinn","male","brown",1
+"32","Nute Gunray","male","other",3
+"33","Finis Valorum","male","blond",1
+"34","Jar Jar Binks","male","other",2
+"35","Roos Tarpals","male","other",1
+"36","Rugor Nass","male","other",1
+"37","Ric Olié","male","brown",1
+"38","Watto","male","black",2
+"39","Sebulba","male","other",1
+"40","Quarsh Panaka","male","black",1
+"41","Shmi Skywalker","female","black",2
+"42","Darth Maul","male","other",1
+"43","Bib Fortuna","male","other",1
+"44","Ayla Secura","female","other",3
+"45","Dud Bolt","male","other",1
+"46","Gasgano","male","other",1
+"47","Ben Quadinaros","male","other",1
+"48","Mace Windu","male","other",3
+"49","Ki-Adi-Mundi","male","other",3
+"50","Kit Fisto","male","other",3
+"51","Eeth Koth","male","black",2
+"52","Adi Gallia","female","other",2
+"53","Saesee Tiin","male","other",2
+"54","Yarael Poof","male","other",1
+"55","Plo Koon","male","other",3
+"56","Mas Amedda","male","other",2
+"57","Gregar Typho","male","black",1
+"58","Cordé","female","brown",1
+"59","Cliegg Lars","male","brown",1
+"60","Poggle the Lesser","male","other",2
+"61","Luminara Unduli","female","black",2
+"62","Barriss Offee","female","black",1
+"63","Dormé","female","brown",1
+"64","Dooku","male","other",2
+"65","Bail Prestor Organa","male","black",2
+"66","Jango Fett","male","black",1
+"67","Zam Wesell","female","other",1
+"68","Dexter Jettster","male","other",1
+"69","Lama Su","male","other",1
+"70","Taun We","female","other",1
+"71","Jocasta Nu","female","other",1
+"72","Ratts Tyerell","male","other",1
+"73","R4-P17","female","other",2
+"74","Wat Tambor","male","other",1
+"75","San Hill","male","other",1
+"76","Shaak Ti","female","other",2
+"77","Grievous","male","other",1
+"78","Tarfful","male","brown",1
+"79","Raymus Antilles","male","brown",2
+"80","Sly Moore","female","other",2
+"81","Tion Medon","male","other",1
+"82","Finn","male","black",1
+"83","Rey","female","brown",1
+"84","Poe Dameron","male","brown",1
+"85","BB8","other","other",1
+"86","Captain Phasma","female","other",1
+"87","Padmé Amidala","female","brown",3

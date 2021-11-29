@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1322325242 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1322325328 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\mn_aritmeticas.h
+
+1446230636 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\mn_simpson.cpp
+	"mn_simpson.h"
+	<stdio.h>
+
+1446230636 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\mn_simpson.h
+	"mn_aritmeticas.h"
+	<math.h>
+
+1446230511 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\mn_practica_5\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_simpson.h"
+
+1446230511 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema5_diferenciacionintegracion\mn_practica_tema_5_simpson_2d_resuelto\simpson2d\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_simpson.h"
+

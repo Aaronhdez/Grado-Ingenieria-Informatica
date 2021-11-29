@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1378116106 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	<iostream>
+
+1378148056 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\mn_aritmeticas.h
+	<iostream>
+
+1547239198 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\newtonpuntosoptimos\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../mn_aritmeticas.h"
+	"../mn_interpolacion.h"
+
+1547219584 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\mn_interpolacion.h
+	"tnt_array/tnt.h"
+
+1236089536 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117541592 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_version.h
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1370960264 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array1d.h
+	<iostream>
+	<stdio.h>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1100620206 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1373751674 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108135342 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_subscript.h
+
+1100619414 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1571249116 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 3\newtonpuntosoptimos_resuelto\mn_interpolacion.cpp
+	"mn_aritmeticas.h"
+	"mn_interpolacion.h"
+

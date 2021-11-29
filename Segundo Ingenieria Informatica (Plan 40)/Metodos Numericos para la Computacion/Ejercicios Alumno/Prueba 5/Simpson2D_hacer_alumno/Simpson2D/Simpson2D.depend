@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1322321642 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\simpson2d_hacer_alumno\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1322321728 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\simpson2d_hacer_alumno\mn_aritmeticas.h
+
+1446226910 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\simpson2d_hacer_alumno\simpson2d\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_simpson.h"
+
+1446227036 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\simpson2d_hacer_alumno\mn_simpson.h
+	"mn_aritmeticas.h"
+	<math.h>
+

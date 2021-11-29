@@ -1,0 +1,72 @@
+---
+title: "LAB3_4"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+setwd(".")
+library(knitr)
+library(ggplot2)
+library(sqldf)
+library(DMwR2)
+library(e1071)
+
+```
+#APARTADO A
+```{r}
+mu<-200
+sigma<-250
+Wdcha<-pnorm(250,200,25)
+Wizq<-pnorm(200,200,25)
+direfer<-Wdcha-Wizq
+```
+#APARTADO B
+```{r}
+Px255<-1-pnorm(255,200,25)
+```
+#APARTADO C
+Percentil 95*percentil 5
+```{r}
+p05<-qnorm(0.05,200,25)
+p95<-qnorm(0.95,200,25)
+```
+#APARTADO D
+Generamos una muestra de 34600
+```{r}
+set.seed(34600)
+muestra<-rnorm(1000,200,25)
+hist(muestra, freq=F, col="lightblue", density=25, ylim=c(0,2*max(Px255)))
+abline(v=mean(muestra), col="blue",lwd=1)
+```
+#APARTADO E
+```{r}
+x<-seq(min(muestra),max(muestra),0.1)
+fx<-dnorm(x,200,25)
+hist(muestra, freq=F, col="lightblue", density=25, ylim=c(0,max(fx)))
+abline(v=mean(muestra), col="blue",lwd=1)
+points(x,fx,col="red",lwd=0.5)
+
+fhist<-hist(muestra, col="lightblue")
+f_x<-cumsum(fhist$counts)/sum(fhist$counts)
+x_ac<-fhist$breaks[2:length(fhist$breaks)]
+plot(x_ac,f_x, type="h", lwd=2, col="green",
+    xlab="Cantidad", ylab="probabilidad")
+grid()
+f_xt<-pnorm(x_ac,200,25)
+points(x_ac,f_xt,type="l",col="blue", lwd=2)
+abline(h=direfer,col="red",lwd=3)
+abline(h=Px255,col="brown", lwd=3)
+```
+#APARTADO F
+```{r}
+skewness(muestra)
+kurtosis(muestra)
+```
+Es asimetrica muy ligeramente positiva y poco aplastada
+Mesocurtica
+```
+

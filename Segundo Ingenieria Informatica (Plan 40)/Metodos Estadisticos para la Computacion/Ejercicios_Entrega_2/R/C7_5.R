@@ -1,0 +1,28 @@
+setwd(".")
+library(knitr)
+x<-seq(0,12000,10)
+n<-12
+x1<-36300
+x2<-38100
+s1<-5000
+s2<-6100
+Alfa<-1-0.95
+
+#Apartado A
+y<-dnorm(x, x2-x1, sqrt((s1^2/n)+(s2^2/n)))
+plot(x,y, type = "l", col="red", lwd=2, ylab = "Densidad de Probabilidad", xlab =
+       "Diferencia de Medias", main ="Analisis Grafico"); 
+grid()
+xliminf<-qnorm(Alfa/2, x2-x1, sqrt((s1^2/n)+(s2^2/n)))
+xlimsup<-qnorm(1-Alfa/2, x2-x1, sqrt((s1^2/n)+(s2^2/n)))
+xliminf
+xlimsup
+
+#Apartado B
+#Análisis de la funcion usando polygon
+xv<-x[x>=xliminf & x<=xlimsup]
+yv<-y[x>=xliminf & x<=xlimsup]
+xv<-c(xv,xlimsup,xliminf)
+yv<-c(yv,y[1],y[1])
+polygon(xv,yv,col="orange", density=25, border="black")
+

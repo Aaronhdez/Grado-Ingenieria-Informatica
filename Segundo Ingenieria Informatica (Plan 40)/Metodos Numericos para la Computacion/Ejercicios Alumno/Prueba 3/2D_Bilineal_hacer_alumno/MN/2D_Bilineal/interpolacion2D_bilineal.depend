@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1562849870 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\bmp.cpp
+	"bmp.h"
+	<stdint.h>
+	<iostream>
+	<fstream>
+
+1561553914 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<time.h>
+	<vector>
+	"color.h"
+	"lodepng.h"
+
+1490019984 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\color.h
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1560955808 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1495603468 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\color.cpp
+	"color.h"
+
+1560955790 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\lodepng.cpp
+	"lodepng.h"
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+
+1318866186 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	"math.h"
+
+1442246790 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\mn_aritmeticas.h
+	<iostream>
+
+1562851728 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\2d_bilineal\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../mn_aritmeticas.h"
+	"../mn_interpolacion.h"
+
+1535964228 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\mn_interpolacion.h
+	"tnt_array/tnt.h"
+
+1236093120 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117545180 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_version.h
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1380267912 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+	<string.h>
+
+1100623800 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1539779328 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"../bmp.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108138920 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_subscript.h
+
+1100622960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097859960 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1571247291 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 3\repaso 1\2d_bilineal_hacer_alumno\mn\mn_interpolacion.cpp
+	"mn_aritmeticas.h"
+	"mn_interpolacion.h"
+

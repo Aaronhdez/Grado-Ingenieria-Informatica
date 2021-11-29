@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1511352418 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\tema5_diferenciacionintegracion\coeficientesfouriersimpson_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1511352418 c:\users\lalva\dropbox\mn ejercicios c++ resueltos\tema5_diferenciacionintegracion\coeficientesfouriersimpson_resuelto\mn_aritmeticas.h
+
+1562351467 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\tema5_diferenciacionintegracion\coeficientesfouriersimpson_resuelto\mn_simpson.cpp
+	"mn_simpson.h"
+	<stdio.h>
+
+1562350943 c:\users\lalva\dropbox\mn ejercicios c++ resueltos\tema5_diferenciacionintegracion\coeficientesfouriersimpson_resuelto\mn_simpson.h
+	"mn_aritmeticas.h"
+	<math.h>
+
+1562351706 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\tema5_diferenciacionintegracion\coeficientesfouriersimpson_resuelto\coeficientesfourier\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_simpson.h"
+
+1511352418 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\variados\tema5_coeficientesfouriersimpson_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1511352418 c:\users\lalva\dropbox\mn ejercicios c++ resueltos\variados\tema5_coeficientesfouriersimpson_resuelto\mn_aritmeticas.h
+
+1562501118 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\variados\tema5_coeficientesfouriersimpson_resuelto\coeficientesfourier\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_simpson.h"
+
+1562350943 c:\users\lalva\dropbox\mn ejercicios c++ resueltos\variados\tema5_coeficientesfouriersimpson_resuelto\mn_simpson.h
+	"mn_aritmeticas.h"
+	<math.h>
+
+1562501014 source:c:\users\lalva\dropbox\mn ejercicios c++ resueltos\variados\tema5_coeficientesfouriersimpson_resuelto\mn_simpson.cpp
+	"mn_simpson.h"
+	<stdio.h>
+

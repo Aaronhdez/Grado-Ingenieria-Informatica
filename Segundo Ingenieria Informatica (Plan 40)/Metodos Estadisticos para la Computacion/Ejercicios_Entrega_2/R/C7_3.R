@@ -1,0 +1,13 @@
+setwd(".")
+library(knitr)
+n <- 25
+mu <- 325.05
+sigma <- 0.5
+alfa <- 0.1
+k <- 1- alfa
+#Calcular limites de tolerancia del 95% del 90% que contiene la aspirina
+#X+-k*s
+liminf <- mu-k*sigma
+liminf
+limsup <- mu+k*sigma
+limsup

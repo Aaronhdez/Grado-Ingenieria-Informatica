@@ -1,0 +1,88 @@
+"Nombre","Genero","Num_Pelis"
+"1","Luke Skywalker","male",5
+"2","C-3PO","other",6
+"3","R2-D2","other",7
+"4","Darth Vader","male",4
+"5","Leia Organa","female",5
+"6","Owen Lars","male",3
+"7","Beru Whitesun lars","female",3
+"8","R5-D4","other",1
+"9","Biggs Darklighter","male",1
+"10","Obi-Wan Kenobi","male",6
+"11","Anakin Skywalker","male",3
+"12","Wilhuff Tarkin","male",2
+"13","Chewbacca","male",5
+"14","Han Solo","male",4
+"15","Greedo","male",1
+"16","Jabba Desilijic Tiure","other",3
+"17","Wedge Antilles","male",3
+"18","Jek Tono Porkins","male",1
+"19","Yoda","male",5
+"20","Palpatine","male",5
+"21","Boba Fett","male",3
+"22","IG-88","other",1
+"23","Bossk","male",1
+"24","Lando Calrissian","male",2
+"25","Lobot","male",1
+"26","Ackbar","male",2
+"27","Mon Mothma","female",1
+"28","Arvel Crynyd","male",1
+"29","Wicket Systri Warrick","male",1
+"30","Nien Nunb","male",1
+"31","Qui-Gon Jinn","male",1
+"32","Nute Gunray","male",3
+"33","Finis Valorum","male",1
+"34","Jar Jar Binks","male",2
+"35","Roos Tarpals","male",1
+"36","Rugor Nass","male",1
+"37","Ric Olié","male",1
+"38","Watto","male",2
+"39","Sebulba","male",1
+"40","Quarsh Panaka","male",1
+"41","Shmi Skywalker","female",2
+"42","Darth Maul","male",1
+"43","Bib Fortuna","male",1
+"44","Ayla Secura","female",3
+"45","Dud Bolt","male",1
+"46","Gasgano","male",1
+"47","Ben Quadinaros","male",1
+"48","Mace Windu","male",3
+"49","Ki-Adi-Mundi","male",3
+"50","Kit Fisto","male",3
+"51","Eeth Koth","male",2
+"52","Adi Gallia","female",2
+"53","Saesee Tiin","male",2
+"54","Yarael Poof","male",1
+"55","Plo Koon","male",3
+"56","Mas Amedda","male",2
+"57","Gregar Typho","male",1
+"58","Cordé","female",1
+"59","Cliegg Lars","male",1
+"60","Poggle the Lesser","male",2
+"61","Luminara Unduli","female",2
+"62","Barriss Offee","female",1
+"63","Dormé","female",1
+"64","Dooku","male",2
+"65","Bail Prestor Organa","male",2
+"66","Jango Fett","male",1
+"67","Zam Wesell","female",1
+"68","Dexter Jettster","male",1
+"69","Lama Su","male",1
+"70","Taun We","female",1
+"71","Jocasta Nu","female",1
+"72","Ratts Tyerell","male",1
+"73","R4-P17","female",2
+"74","Wat Tambor","male",1
+"75","San Hill","male",1
+"76","Shaak Ti","female",2
+"77","Grievous","male",1
+"78","Tarfful","male",1
+"79","Raymus Antilles","male",2
+"80","Sly Moore","female",2
+"81","Tion Medon","male",1
+"82","Finn","male",1
+"83","Rey","female",1
+"84","Poe Dameron","male",1
+"85","BB8","other",1
+"86","Captain Phasma","female",1
+"87","Padmé Amidala","female",3

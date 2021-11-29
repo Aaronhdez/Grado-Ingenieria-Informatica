@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1378116106 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\biseccion_hacer_alumno\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	<iostream>
+
+1378148056 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\biseccion_hacer_alumno\mn_aritmeticas.h
+	<iostream>
+
+1547476440 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\biseccion_hacer_alumno\biseccion\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<iostream>
+	"../mn_calculo_ceros.h"
+
+1546883258 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\biseccion_hacer_alumno\mn_calculo_ceros.h
+	"mn_aritmeticas.h"
+
+1569867563 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\biseccion_hacer_alumno\mn_calculo_ceros.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"mn_calculo_ceros.h"
+

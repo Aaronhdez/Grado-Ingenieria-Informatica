@@ -1,0 +1,40 @@
+---
+title: "C5_3"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+setwd(".")
+library(knitr)
+```
+
+Apartado a)
+
+```{r}
+n<-185
+#Probabilidad de no presentarse al vuelo por parte de un pasajero
+p<-0.019 
+#Probabilidad de presentarse al vuelo por parte de un pasajero
+q<-0.981  
+mu<-(n*p)
+sigma<-sqrt(n*p*q)
+z<-(186-mu)/sigma
+pnorm(z)
+
+x<-seq(0,16,1)
+plot(x, pnorm(x-mu/sigma),type="l", col="red", lwd=2,
+     xlab="'185 + x' Pasajeros")
+abline(v=11, col="darkgreen", lwd=2, xlab="196")
+grid()
+pnorm(z)
+```
+
+La probabilidad de que se presente el total de pasajeros  es elevada y sobrepasa las posibilidades que existen de que el número de pasajeros que no se presenten sea el necesario para no haber sobrevendido el vuelo.
+
+Esto quiere decir que el vuelo, en este caso, ha sido sobrevendido, luego es posible con cuasi total seguridad, que hayan pasajeros que no tengan asiento
+```

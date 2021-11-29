@@ -1,0 +1,143 @@
+"Paises","2002","2007"
+"1","Afghanistan/Asia",25268405,31889923
+"2","Albania/Europe",3508512,3600523
+"3","Algeria/Africa",31287142,33333216
+"4","Angola/Africa",10866106,12420476
+"5","Argentina/Americas",38331121,40301927
+"6","Australia/Oceania",19546792,20434176
+"7","Austria/Europe",8148312,8199783
+"8","Bahrain/Asia",656397,708573
+"9","Bangladesh/Asia",135656790,150448339
+"10","Belgium/Europe",10311970,10392226
+"11","Benin/Africa",7026113,8078314
+"12","Bolivia/Americas",8445134,9119152
+"13","Bosnia and Herzegovina/Europe",4165416,4552198
+"14","Botswana/Africa",1630347,1639131
+"15","Brazil/Americas",179914212,190010647
+"16","Bulgaria/Europe",7661799,7322858
+"17","Burkina Faso/Africa",12251209,14326203
+"18","Burundi/Africa",7021078,8390505
+"19","Cambodia/Asia",12926707,14131858
+"20","Cameroon/Africa",15929988,17696293
+"21","Canada/Americas",31902268,33390141
+"22","Central African Republic/Africa",4048013,4369038
+"23","Chad/Africa",8835739,10238807
+"24","Chile/Americas",15497046,16284741
+"25","China/Asia",1280400000,1318683096
+"26","Colombia/Americas",41008227,44227550
+"27","Comoros/Africa",614382,710960
+"28","Congo, Dem. Rep./Africa",55379852,64606759
+"29","Congo, Rep./Africa",3328795,3800610
+"30","Costa Rica/Americas",3834934,4133884
+"31","Cote d'Ivoire/Africa",16252726,18013409
+"32","Croatia/Europe",4481020,4493312
+"33","Cuba/Americas",11226999,11416987
+"34","Czech Republic/Europe",10256295,10228744
+"35","Denmark/Europe",5374693,5468120
+"36","Djibouti/Africa",447416,496374
+"37","Dominican Republic/Americas",8650322,9319622
+"38","Ecuador/Americas",12921234,13755680
+"39","Egypt/Africa",73312559,80264543
+"40","El Salvador/Americas",6353681,6939688
+"41","Equatorial Guinea/Africa",495627,551201
+"42","Eritrea/Africa",4414865,4906585
+"43","Ethiopia/Africa",67946797,76511887
+"44","Finland/Europe",5193039,5238460
+"45","France/Europe",59925035,61083916
+"46","Gabon/Africa",1299304,1454867
+"47","Gambia/Africa",1457766,1688359
+"48","Germany/Europe",82350671,82400996
+"49","Ghana/Africa",20550751,22873338
+"50","Greece/Europe",10603863,10706290
+"51","Guatemala/Americas",11178650,12572928
+"52","Guinea-Bissau/Africa",1332459,1472041
+"53","Guinea/Africa",8807818,9947814
+"54","Haiti/Americas",7607651,8502814
+"55","Honduras/Americas",6677328,7483763
+"56","Hong Kong, China/Asia",6762476,6980412
+"57","Hungary/Europe",10083313,9956108
+"58","Iceland/Europe",288030,301931
+"59","India/Asia",1034172547,1110396331
+"60","Indonesia/Asia",211060000,223547000
+"61","Iran/Asia",66907826,69453570
+"62","Iraq/Asia",24001816,27499638
+"63","Ireland/Europe",3879155,4109086
+"64","Israel/Asia",6029529,6426679
+"65","Italy/Europe",57926999,58147733
+"66","Jamaica/Americas",2664659,2780132
+"67","Japan/Asia",127065841,127467972
+"68","Jordan/Asia",5307470,6053193
+"69","Kenya/Africa",31386842,35610177
+"70","Korea, Dem. Rep./Asia",22215365,23301725
+"71","Korea, Rep./Asia",47969150,49044790
+"72","Kuwait/Asia",2111561,2505559
+"73","Lebanon/Asia",3677780,3921278
+"74","Lesotho/Africa",2046772,2012649
+"75","Liberia/Africa",2814651,3193942
+"76","Libya/Africa",5368585,6036914
+"77","Madagascar/Africa",16473477,19167654
+"78","Malawi/Africa",11824495,13327079
+"79","Malaysia/Asia",22662365,24821286
+"80","Mali/Africa",10580176,12031795
+"81","Mauritania/Africa",2828858,3270065
+"82","Mauritius/Africa",1200206,1250882
+"83","Mexico/Americas",102479927,108700891
+"84","Mongolia/Asia",2674234,2874127
+"85","Montenegro/Europe",720230,684736
+"86","Morocco/Africa",31167783,33757175
+"87","Mozambique/Africa",18473780,19951656
+"88","Myanmar/Asia",45598081,47761980
+"89","Namibia/Africa",1972153,2055080
+"90","Nepal/Asia",25873917,28901790
+"91","Netherlands/Europe",16122830,16570613
+"92","New Zealand/Oceania",3908037,4115771
+"93","Nicaragua/Americas",5146848,5675356
+"94","Niger/Africa",11140655,12894865
+"95","Nigeria/Africa",119901274,135031164
+"96","Norway/Europe",4535591,4627926
+"97","Oman/Asia",2713462,3204897
+"98","Pakistan/Asia",153403524,169270617
+"99","Panama/Americas",2990875,3242173
+"100","Paraguay/Americas",5884491,6667147
+"101","Peru/Americas",26769436,28674757
+"102","Philippines/Asia",82995088,91077287
+"103","Poland/Europe",38625976,38518241
+"104","Portugal/Europe",10433867,10642836
+"105","Puerto Rico/Americas",3859606,3942491
+"106","Reunion/Africa",743981,798094
+"107","Romania/Europe",22404337,22276056
+"108","Rwanda/Africa",7852401,8860588
+"109","Sao Tome and Principe/Africa",170372,199579
+"110","Saudi Arabia/Asia",24501530,27601038
+"111","Senegal/Africa",10870037,12267493
+"112","Serbia/Europe",10111559,10150265
+"113","Sierra Leone/Africa",5359092,6144562
+"114","Singapore/Asia",4197776,4553009
+"115","Slovak Republic/Europe",5410052,5447502
+"116","Slovenia/Europe",2011497,2009245
+"117","Somalia/Africa",7753310,9118773
+"118","South Africa/Africa",44433622,43997828
+"119","Spain/Europe",40152517,40448191
+"120","Sri Lanka/Asia",19576783,20378239
+"121","Sudan/Africa",37090298,42292929
+"122","Swaziland/Africa",1130269,1133066
+"123","Sweden/Europe",8954175,9031088
+"124","Switzerland/Europe",7361757,7554661
+"125","Syria/Asia",17155814,19314747
+"126","Taiwan/Asia",22454239,23174294
+"127","Tanzania/Africa",34593779,38139640
+"128","Thailand/Asia",62806748,65068149
+"129","Togo/Africa",4977378,5701579
+"130","Trinidad and Tobago/Americas",1101832,1056608
+"131","Tunisia/Africa",9770575,10276158
+"132","Turkey/Europe",67308928,71158647
+"133","Uganda/Africa",24739869,29170398
+"134","United Kingdom/Europe",59912431,60776238
+"135","United States/Americas",287675526,301139947
+"136","Uruguay/Americas",3363085,3447496
+"137","Venezuela/Americas",24287670,26084662
+"138","Vietnam/Asia",80908147,85262356
+"139","West Bank and Gaza/Asia",3389578,4018332
+"140","Yemen, Rep./Asia",18701257,22211743
+"141","Zambia/Africa",10595811,11746035
+"142","Zimbabwe/Africa",11926563,12311143

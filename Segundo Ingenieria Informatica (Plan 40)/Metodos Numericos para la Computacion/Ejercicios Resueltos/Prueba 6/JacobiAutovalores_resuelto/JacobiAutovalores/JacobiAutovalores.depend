@@ -1,0 +1,285 @@
+# depslib dependency file v1.0
+1322945324 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1322945324 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_aritmeticas.h
+
+1448555236 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_jacobi.cpp
+	"mn_jacobi.h"
+
+1448398898 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_jacobi.h
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	"mn_aritmeticas.h"
+	"mn_lapack.h"
+
+1322945324 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_lapack.h
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+
+1236089520 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117548780 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_version.h
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1381179036 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+
+1100620200 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1245231840 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108135320 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_subscript.h
+
+1100619360 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097863560 c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1547404403 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\mn_lapack.cpp
+	<stdio.h>
+	"mn_lapack.h"
+
+1547404457 source:c:\users\lalva\dropbox\mn ejercicios c++ - copia\tema6_analisismatricial_ii\mn_practica_tema_6_jacobi_autovalores_resuelto\jacobiautovalores\main.cpp
+	"../mn_aritmeticas.h"
+	"../mn_lapack.h"
+	"../mn_jacobi.h"
+
+1322941724 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1322941724 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_aritmeticas.h
+
+1547401306 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_jacobi.cpp
+	"mn_jacobi.h"
+
+1448395298 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_jacobi.h
+	<math.h>
+	<stdlib.h>
+	<stdio.h>
+	"mn_aritmeticas.h"
+	"mn_lapack.h"
+
+1322941724 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_lapack.h
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+
+1236085920 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117541580 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_version.h
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1381171836 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+
+1100616600 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1245224640 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108131720 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_subscript.h
+
+1100615760 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1547400802 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\mn_lapack.cpp
+	<stdio.h>
+	"mn_lapack.h"
+
+1547400856 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 6\jacobiautovalores_resuelto\jacobiautovalores\main.cpp
+	"../mn_aritmeticas.h"
+	"../mn_lapack.h"
+	"../mn_jacobi.h"
+

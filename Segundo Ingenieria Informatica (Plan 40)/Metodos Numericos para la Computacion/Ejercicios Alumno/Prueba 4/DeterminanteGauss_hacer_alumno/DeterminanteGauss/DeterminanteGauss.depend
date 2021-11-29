@@ -1,0 +1,147 @@
+# depslib dependency file v1.0
+1321290062 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	"math.h"
+
+1321290062 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_aritmeticas.h
+
+1546091576 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_lapack.cpp
+	<stdio.h>
+	"mn_lapack.h"
+
+1546091524 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_lapack.h
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+
+1236085920 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117541580 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_version.h
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1380304174 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+
+1100616600 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1546092198 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108131720 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_subscript.h
+
+1100615760 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1546267890 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\determinantegauss\main.cpp
+	<stdio.h>
+	"../mn_determinante.h"
+	"../mn_lapack.h"
+	<stdlib.h>
+
+1546264522 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_determinante.h
+	<stdlib.h>
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+
+1572610681 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 4\determinantegauss_hacer_alumno\mn_determinante.cpp
+	"mn_determinante.h"
+	"mn_lapack.h"
+	<stdlib.h>
+	<stdio.h>
+

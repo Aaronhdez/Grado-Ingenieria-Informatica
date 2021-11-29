@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1568653530 source:c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\ejerciciosbasicos\main.cpp
+	<stdio.h>
+	"../EjerciciosBasicos.h"
+	<stdlib.h>
+
+1539338522 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\ejerciciosbasicos.h
+	<math.h>
+	"mn_aritmeticas.h"
+	"tnt_array/tnt.h"
+
+1321297262 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\mn_aritmeticas.h
+
+1236093120 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117545180 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_version.h
+
+1355681126 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_math_utils.h
+	<math.h>
+
+1381145630 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+
+1100623800 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1568449214 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108138920 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_subscript.h
+
+1100622960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097859960 c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1568918111 source:c:\users\usuario\desktop\mn\prueba 1\repaso 19_09_2\ejerciciosbasicos.cpp
+	<stdio.h>
+	"EjerciciosBasicos.h"
+

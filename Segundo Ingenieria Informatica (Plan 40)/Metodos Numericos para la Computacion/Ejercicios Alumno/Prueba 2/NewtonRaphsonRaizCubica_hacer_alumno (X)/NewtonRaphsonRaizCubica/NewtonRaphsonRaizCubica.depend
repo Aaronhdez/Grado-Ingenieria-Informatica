@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1317903890 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\newtonraphsonraizcubica_hacer_alumno\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+	"math.h"
+
+1317901936 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\newtonraphsonraizcubica_hacer_alumno\mn_aritmeticas.h
+
+1546892860 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\newtonraphsonraizcubica_hacer_alumno\newtonraphsonraizcubica\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../mn_calculo_ceros.h"
+
+1317913564 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 2\newtonraphsonraizcubica_hacer_alumno\mn_calculo_ceros.h
+	"mn_aritmeticas.h"
+

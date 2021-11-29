@@ -1,0 +1,347 @@
+# depslib dependency file v1.0
+1562857070 source:c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\bmp.cpp
+	"bmp.h"
+	<stdint.h>
+	<iostream>
+	<fstream>
+
+1561561114 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<time.h>
+	<vector>
+	"color.h"
+	"lodepng.h"
+
+1490019984 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\color.h
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1560963009 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1495610668 source:c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\color.cpp
+	"color.h"
+
+1560962990 source:c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\lodepng.cpp
+	"lodepng.h"
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+
+1318873386 source:c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\mn_aritmeticas.c
+	"mn_aritmeticas.h"
+	"math.h"
+
+1442253991 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\mn_aritmeticas.h
+	<iostream>
+
+1562857332 source:c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\mascara2d\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../mn_aritmeticas.h"
+	"../mn_mascara3x3.h"
+
+1539077852 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\mn_mascara3x3.h
+	"tnt_array/tnt.h"
+
+1236093120 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117552380 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_version.h
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1380275112 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+	<string.h>
+
+1100623800 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1540200705 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"../bmp.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108138920 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_subscript.h
+
+1100622960 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097867160 c:\users\lalva\dropbox\mn ejercicios c++\tema5_diferenciacionintegracion\mascara2d_hacer_alumno\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1562846270 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\bmp.cpp
+	"bmp.h"
+	<stdint.h>
+	<iostream>
+	<fstream>
+
+1561550314 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<time.h>
+	<vector>
+	"color.h"
+	"lodepng.h"
+
+1490012784 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\color.h
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<math.h>
+
+1560952208 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\lodepng.h
+	<string.h>
+	<vector>
+	<string>
+	"lodepng.h"
+	<iostream>
+	"lodepng.h"
+
+1495599868 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\color.cpp
+	"color.h"
+
+1560952190 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\lodepng.cpp
+	"lodepng.h"
+	<limits.h>
+	<stdio.h>
+	<stdlib.h>
+
+1318862586 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\mn_aritmeticas.c
+	"mn_aritmeticas.h"
+	"math.h"
+
+1442243190 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\mn_aritmeticas.h
+	<iostream>
+
+1562846532 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\mascara2d\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../mn_aritmeticas.h"
+	"../mn_mascara3x3.h"
+
+1539067052 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\mn_mascara3x3.h
+	"tnt_array/tnt.h"
+
+1236085920 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117541580 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_version.h
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1380264312 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array1d.h
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+	<stdio.h>
+	<string.h>
+
+1100616600 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1540189904 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"../bmp.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108131720 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_subscript.h
+
+1100615760 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097856360 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1573992690 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\mascara2d_hacer_alumno\mn_mascara3x3.cpp
+	"mn_aritmeticas.h"
+	"mn_mascara3x3.h"
+

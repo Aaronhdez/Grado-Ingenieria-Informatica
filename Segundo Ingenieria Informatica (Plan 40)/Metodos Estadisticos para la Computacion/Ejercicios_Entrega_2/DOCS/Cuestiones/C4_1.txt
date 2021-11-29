@@ -1,0 +1,32 @@
+CUESTIÓN 1 TEMA 3 LECTURA 4
+A un operador de lavado de coches se le paga en función del número de
+vehículos que lava. Supóngase que las probabilidades de que entre las 17:00 y 18:00 de
+cualquier jueves cobre una cierta cantidad Ci en euros vienen dadas por la siguiente
+tabla:
+Ci 7 9 11 13 15 17
+pi 1/12 1/12 1/4 1/4 1/6 1/6
+Calcular la ganancia esperada del operador para este tramo horario y establecer una
+medida coherente de su variabilidad. Explicar las respuestas.
+
+mu = E(x) = 7 * 1/12 + 9 * 1/12 + 11 * 1/4 + 13 * 1/4 +15 * 1/6 + 17 * 1/6 = 12.666€
+
+Podemos concluir que, gracias a que la mayor aportación a la ganancia esperada, que proviene del rango entre los programas
+de 11 y 13 € (para ser exactos, una aportación del 50%), se gana un total de 12.666 €
+
+b) Establecer una medida coherente de su variabilidad
+
+Por definición, podemos establecer dos medidas distintas : podemos aplicar una varianza (sigma^2 = E(x^2) - mu ^2)
+o una desviación típica (S = raíz de sigma ^2).
+
+Proponemos las dos fórmulas, partiendo de que mu = 12.6 €:
+
+E(x^2) = 49/12 + 81/12 + 121/4 + 169/4 + 225/6 + 289/6 = 65/6 + 145/2 + 257/3 = 169 €
+
+sigma ^2 = 169 - (12.6)^2 = 169 - 158.76 = 10.24
+
+S = raiz de sigma ^2 = 3.2
+
+Ahora, ¿cuál de las dos elegimos? Utilizaremos la desviación típica, debido a que trabaja con la misma dimensión que el de 
+las medidas (Ci). La varianza es la media de diferencias cuadráticas de i elementos encontrados en Ci, respecto a dicha media
+y con esta definición nos daríamos cuenta que el resultado sería €, no en € ^2. Por ello, el resultado final, aplicando la
+desviación típica es 3.2 €.

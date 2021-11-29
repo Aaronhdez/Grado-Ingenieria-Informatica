@@ -1,0 +1,13 @@
+Marca	Precio
+BMW	32500
+Mercedes	20100
+Seat	15700
+Ford	16200
+Citroen	16400
+Dacia	10100
+Volvo	21100
+Renault	18800
+Opel	9500
+Toyota	11700
+Mazda	18800
+Hyundai	12100

@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1452025398 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\mullerpolinomios\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"mn_raices_polinomios.h"
+	"../tnt_array/tnt.h"
+	"mn_aritmeticas.h"
+
+1452024522 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\mullerpolinomios\mn_raices_polinomios.h
+	"../tnt_array/tnt.h"
+	"mn_aritmeticas.h"
+
+1236089536 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt.h
+	"tnt_version.h"
+	"tnt_math_utils.h"
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+	"tnt_array3d.h"
+	"tnt_array1d_utils.h"
+	"tnt_array2d_utils.h"
+	"tnt_array3d_utils.h"
+	"tnt_fortran_array1d.h"
+	"tnt_fortran_array2d.h"
+	"tnt_fortran_array3d.h"
+	"tnt_fortran_array1d_utils.h"
+	"tnt_fortran_array2d_utils.h"
+	"tnt_fortran_array3d_utils.h"
+	"tnt_sparse_matrix_csr.h"
+	"tnt_stopwatch.h"
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	"tnt_cmat.h"
+
+1117541592 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_version.h
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_math_utils.h
+	<cmath>
+
+1443266368 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array1d.h
+	<iostream>
+	<stdio.h>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1100620206 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_i_refvec.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+
+1245224692 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_array1d.h"
+	"tnt_array2d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array1d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array2d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1108135342 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array1d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array2d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array3d.h
+	<cstdlib>
+	<iostream>
+	<assert.h>
+	"tnt_i_refvec.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array1d_utils.h
+	<iostream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array2d_utils.h
+	<iostream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_fortran_array3d_utils.h
+	<cstdlib>
+	<cassert>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_sparse_matrix_csr.h
+	"tnt_array1d.h"
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_stopwatch.h
+	<time.h>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_subscript.h
+
+1100619414 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_vec.h
+	"tnt_subscript.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1097856410 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\tnt_array\tnt_cmat.h
+	"tnt_subscript.h"
+	"tnt_vec.h"
+	<cstdlib>
+	<cassert>
+	<iostream>
+	<sstream>
+
+1443259132 d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\mullerpolinomios\mn_aritmeticas.h
+	<iostream>
+
+1373484338 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\mullerpolinomios\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1562870768 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\resueltos\prueba 2\mullerpolinomios_resuelto\mullerpolinomios\mn_raices_polinomios.cpp
+	"mn_aritmeticas.h"
+	"mn_raices_polinomios.h"
+

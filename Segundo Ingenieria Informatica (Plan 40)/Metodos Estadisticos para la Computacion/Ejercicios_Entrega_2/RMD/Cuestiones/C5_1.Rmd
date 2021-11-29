@@ -1,0 +1,133 @@
+---
+title: "C5_1"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+#Lectura 5
+Cuestión 1: La estatura de los 835 estudiantes de la Escuela de Ingeniería Informática se
+distribuye según una normal de media 176.5 centímetros y una desviación estándar de
+7.1 centímetros. Encontrar cuántos de estos estudiantes se esperaría que tuvieran una
+estatura:
+
+Apartado a) 
+
+Primero convertimos la distribución normal en estándar n(x;0,1) desde ?? = 176.5 y ?? = 7.1 calculamos
+
+```{r}
+mu <- 176.5
+sigma <- 7.1
+Z_160 <- (160-mu)/sigma
+Z_160
+```
+
+Para encontrar la probabilidad de que la altura sea inferior a 160 (Z_160) utilizamos pnorm()directamente
+
+```{r}
+pnorm(Z_160)
+```
+
+LA PROBABILIDAD DE MEDIR MENOS DE 160cm ES 0.01006426
+
+Visualizacion
+
+```{r}
+x<-seq(-3,3,0.01)
+z<-seq(-3,Z_160,0.01)
+p<-dnorm(z)
+z<-c(z,Z_160,-3)
+p<-c(p,min(p),min(p))
+plot(x,dnorm(x), type="l",xaxt="n",
+     ylab = "Densidad de Probabilidad", xlab="Altura", lwd=3)
+
+axis(1,at=-3:3, labels = c("155.2","162.3","169.4","176.5","183.1","190.7","197.8"))
+polygon(z,p,col="red")
+grid()
+```
+
+Apartado b) Entre 171.5 y 180 centímetros.
+
+Primero convertimos la distribución normal en estándar n(x;0,1) desde ?? = 171.5 y ?? = 7.1 calculamos
+
+```{r}
+mu <- 176.5
+sigma <- 7.1
+Z_171.5 <- (171.5-mu)/sigma
+Z_171.5
+  #Primero convertimos la distribución normal en estándar n(x;0,1) 
+  #desde ?? = 180 y ?? = 7.1 calculamos
+mu <- 176.5
+sigma <- 7.1
+Z_180 <- (180-mu)/sigma
+Z_180
+pnorm(Z_180)-pnorm(Z_171.5)
+```
+LA PROBABILIDAD DE MEDIR ENTRE 171.5cm Y 180cm ES  0.4929577
+  Visualización:
+```{r}
+x<-seq(-3,3,0.01)
+z<-seq(Z_171.5, Z_180,0.01)
+p<-dnorm(z)
+z<-c(z,Z_180,Z_171.5)
+p<-c(p,0,0)
+plot(x,dnorm(x), type="l",xaxt="n",
+     ylab = "Densidad de Probabilidad", xlab="Altura", lwd=3)
+axis(1,at=-3:3, labels = c("155.2","162.3","169.4","176.5","183.1","190.7","197.8"))
+polygon(z,p,col="yellow")
+grid()
+```
+
+Apartado c) Igual a 175 centímetros.
+
+```{r}
+mu <- 176.5
+sigma <- 7.1
+Z_175 <- (175-mu)/sigma
+Z_175
+pnorm(Z_175)
+```
+
+Visualizacion
+
+```{r}
+x<-seq(-3,3,0.01)
+z<-seq(Z_175,Z_175,0.00)
+p<-dnorm(z)
+z<-c(z,Z_175,Z_175)
+p<-c(p,min(p),min(p))
+plot(x,dnorm(x), type="l",xaxt="n",
+     ylab = "Densidad de Probabilidad", xlab="Altura", lwd=3)
+
+axis(1,at=-3:3, labels = c("155.2","162.3","169.4","176.5","183.1","190.7","197.8"))
+polygon(z,p,col="red")
+grid()
+```
+Apartado d) Mayor o igual a 190 centímetros.
+```{r}
+mu <- 176.5
+sigma <- 7.1
+Z_190 <- (190-mu)/sigma
+Z_190
+```
+Para encontrar la probabilidad de que la altura sea superior a 190 cmutilizamos pnorm()pero con el complementario a 1
+```{r}
+1-pnorm(Z_190)
+```
+Visualización:
+```{r}
+x<-seq(-3,3,0.01)
+z<-seq(Z_190,3,0.01)
+p<-dnorm(z)
+z<-c(z,3,Z_190)
+p<-c(p,min(p),min(p))
+plot(x,dnorm(x), type="l",xaxt="n",ylab = "Densidad de Probabilidad",
+     xlab="Altura", lwd=2)
+axis(1,at=-3:3, labels = c("155.2","162.3","169.4","176.5","183.1","190.7","197.8"))
+polygon(z,p,col="darkgreen")
+grid()
+```
+e) Analizar los resultados con R y visualizar la distribución y las probabilidades de los grupos de estatura resultantes de los apartados anteriores.

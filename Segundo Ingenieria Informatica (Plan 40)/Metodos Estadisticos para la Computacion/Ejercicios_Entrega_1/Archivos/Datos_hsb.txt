@@ -1,0 +1,201 @@
+"ID","Sexo","Raza","Estatus_Socieconomico","Tipo_Escuela","Tipo_Programa","P_Lectura","P_Escritura","P_Matematicas","P_Ciencias","P_Sociales"
+"1",70,"Hombre","Blanca","bajo","Publico","General",57,52,41,47,57
+"2",121,"Mujer","Blanca","medio","Publico","Vocational/technical",68,59,53,63,61
+"3",86,"Hombre","Blanca","alto","Publico","General",44,33,54,58,31
+"4",141,"Hombre","Blanca","alto","Publico","Vocational/technical",63,44,47,53,56
+"5",172,"Hombre","Blanca","medio","Publico","Academic preparatory",47,52,57,53,61
+"6",113,"Hombre","Blanca","medio","Publico","Academic preparatory",44,52,51,63,61
+"7",50,"Hombre","Negra","medio","Publico","General",50,59,42,53,61
+"8",11,"Hombre","Hispana","medio","Publico","Academic preparatory",34,46,45,39,36
+"9",84,"Hombre","Blanca","medio","Publico","General",63,57,54,58,51
+"10",48,"Hombre","Negra","medio","Publico","Academic preparatory",57,55,52,50,51
+"11",75,"Hombre","Blanca","medio","Publico","Vocational/technical",60,46,51,53,61
+"12",60,"Hombre","Blanca","medio","Publico","Academic preparatory",57,65,51,63,61
+"13",95,"Hombre","Blanca","alto","Publico","Academic preparatory",73,60,71,61,71
+"14",104,"Hombre","Blanca","alto","Publico","Academic preparatory",54,63,57,55,46
+"15",38,"Hombre","Negra","bajo","Publico","Academic preparatory",45,57,50,31,56
+"16",115,"Hombre","Blanca","bajo","Publico","General",42,49,43,50,56
+"17",76,"Hombre","Blanca","alto","Publico","Academic preparatory",47,52,51,50,56
+"18",195,"Hombre","Blanca","medio","Privado","General",57,57,60,58,56
+"19",114,"Hombre","Blanca","alto","Publico","Academic preparatory",68,65,62,55,61
+"20",85,"Hombre","Blanca","medio","Publico","General",55,39,57,53,46
+"21",167,"Hombre","Blanca","medio","Publico","General",63,49,35,66,41
+"22",143,"Hombre","Blanca","medio","Publico","Vocational/technical",63,63,75,72,66
+"23",41,"Hombre","Negra","medio","Publico","Academic preparatory",50,40,45,55,56
+"24",20,"Hombre","Hispana","alto","Publico","Academic preparatory",60,52,57,61,61
+"25",12,"Hombre","Hispana","medio","Publico","Vocational/technical",37,44,45,39,46
+"26",53,"Hombre","Negra","medio","Publico","Vocational/technical",34,37,46,39,31
+"27",154,"Hombre","Blanca","alto","Publico","Academic preparatory",65,65,66,61,66
+"28",178,"Hombre","Blanca","medio","Privado","Vocational/technical",47,57,57,58,46
+"29",196,"Hombre","Blanca","alto","Privado","Academic preparatory",44,38,49,39,46
+"30",29,"Hombre","Asiática","bajo","Publico","General",52,44,49,55,41
+"31",126,"Hombre","Blanca","medio","Publico","General",42,31,57,47,51
+"32",103,"Hombre","Blanca","alto","Publico","Academic preparatory",76,52,64,64,61
+"33",192,"Hombre","Blanca","alto","Privado","Academic preparatory",65,67,63,66,71
+"34",150,"Hombre","Blanca","medio","Publico","Vocational/technical",42,41,57,72,31
+"35",199,"Hombre","Blanca","alto","Privado","Academic preparatory",52,59,50,61,61
+"36",144,"Hombre","Blanca","alto","Publico","General",60,65,58,61,66
+"37",200,"Hombre","Blanca","medio","Privado","Academic preparatory",68,54,75,66,66
+"38",80,"Hombre","Blanca","alto","Publico","Academic preparatory",65,62,68,66,66
+"39",16,"Hombre","Hispana","bajo","Publico","Vocational/technical",47,31,44,36,36
+"40",153,"Hombre","Blanca","medio","Publico","Vocational/technical",39,31,40,39,51
+"41",176,"Hombre","Blanca","medio","Privado","Academic preparatory",47,47,41,42,51
+"42",177,"Hombre","Blanca","medio","Privado","Academic preparatory",55,59,62,58,51
+"43",168,"Hombre","Blanca","medio","Publico","Academic preparatory",52,54,57,55,51
+"44",40,"Hombre","Negra","bajo","Publico","General",42,41,43,50,41
+"45",62,"Hombre","Blanca","alto","Publico","General",65,65,48,63,66
+"46",169,"Hombre","Blanca","bajo","Publico","General",55,59,63,69,46
+"47",49,"Hombre","Negra","alto","Publico","Vocational/technical",50,40,39,49,47
+"48",136,"Hombre","Blanca","medio","Publico","Academic preparatory",65,59,70,63,51
+"49",189,"Hombre","Blanca","medio","Privado","Academic preparatory",47,59,63,53,46
+"50",7,"Hombre","Hispana","medio","Publico","Academic preparatory",57,54,59,47,51
+"51",27,"Hombre","Asiática","medio","Publico","Academic preparatory",53,61,61,57,56
+"52",128,"Hombre","Blanca","alto","Publico","Academic preparatory",39,33,38,47,41
+"53",21,"Hombre","Hispana","medio","Publico","General",44,44,61,50,46
+"54",183,"Hombre","Blanca","medio","Privado","Academic preparatory",63,59,49,55,71
+"55",132,"Hombre","Blanca","medio","Publico","Academic preparatory",73,62,73,69,66
+"56",15,"Hombre","Hispana","alto","Publico","Vocational/technical",39,39,44,26,42
+"57",67,"Hombre","Blanca","bajo","Publico","Vocational/technical",37,37,42,33,32
+"58",22,"Hombre","Hispana","medio","Publico","Vocational/technical",42,39,39,56,46
+"59",185,"Hombre","Blanca","medio","Privado","Academic preparatory",63,57,55,58,41
+"60",9,"Hombre","Hispana","medio","Publico","Vocational/technical",48,49,52,44,51
+"61",181,"Hombre","Blanca","medio","Privado","Academic preparatory",50,46,45,58,61
+"62",170,"Hombre","Blanca","alto","Publico","Academic preparatory",47,62,61,69,66
+"63",134,"Hombre","Blanca","bajo","Publico","General",44,44,39,34,46
+"64",108,"Hombre","Blanca","medio","Publico","General",34,33,41,36,36
+"65",197,"Hombre","Blanca","alto","Privado","Academic preparatory",50,42,50,36,61
+"66",140,"Hombre","Blanca","medio","Publico","Vocational/technical",44,41,40,50,26
+"67",171,"Hombre","Blanca","medio","Publico","Academic preparatory",60,54,60,55,66
+"68",107,"Hombre","Blanca","bajo","Publico","Vocational/technical",47,39,47,42,26
+"69",81,"Hombre","Blanca","bajo","Publico","Academic preparatory",63,43,59,65,44
+"70",18,"Hombre","Hispana","medio","Publico","Vocational/technical",50,33,49,44,36
+"71",155,"Hombre","Blanca","medio","Publico","General",44,44,46,39,51
+"72",97,"Hombre","Blanca","alto","Publico","Academic preparatory",60,54,58,58,61
+"73",68,"Hombre","Blanca","medio","Publico","Academic preparatory",73,67,71,63,66
+"74",157,"Hombre","Blanca","medio","Publico","General",68,59,58,74,66
+"75",56,"Hombre","Blanca","medio","Publico","Vocational/technical",55,45,46,58,51
+"76",5,"Hombre","Hispana","bajo","Publico","Academic preparatory",47,40,43,45,31
+"77",159,"Hombre","Blanca","alto","Publico","Academic preparatory",55,61,54,49,61
+"78",123,"Hombre","Blanca","alto","Publico","General",68,59,56,63,66
+"79",164,"Hombre","Blanca","medio","Publico","Vocational/technical",31,36,46,39,46
+"80",14,"Hombre","Hispana","alto","Publico","Academic preparatory",47,41,54,42,56
+"81",127,"Hombre","Blanca","alto","Publico","Academic preparatory",63,59,57,55,56
+"82",165,"Hombre","Blanca","bajo","Publico","Vocational/technical",36,49,54,61,36
+"83",174,"Hombre","Blanca","medio","Privado","Academic preparatory",68,59,71,66,56
+"84",3,"Hombre","Hispana","bajo","Publico","Academic preparatory",63,65,48,63,56
+"85",58,"Hombre","Blanca","medio","Publico","Vocational/technical",55,41,40,44,41
+"86",146,"Hombre","Blanca","alto","Publico","Academic preparatory",55,62,64,63,66
+"87",102,"Hombre","Blanca","alto","Publico","Academic preparatory",52,41,51,53,56
+"88",117,"Hombre","Blanca","alto","Publico","Vocational/technical",34,49,39,42,56
+"89",133,"Hombre","Blanca","medio","Publico","Vocational/technical",50,31,40,34,31
+"90",94,"Hombre","Blanca","alto","Publico","Academic preparatory",55,49,61,61,56
+"91",24,"Hombre","Asiática","medio","Publico","Academic preparatory",52,62,66,47,46
+"92",149,"Hombre","Blanca","bajo","Publico","General",63,49,49,66,46
+"93",82,"Mujer","Blanca","alto","Publico","Academic preparatory",68,62,65,69,61
+"94",8,"Mujer","Hispana","bajo","Publico","Academic preparatory",39,44,52,44,48
+"95",129,"Mujer","Blanca","bajo","Publico","General",44,44,46,47,51
+"96",173,"Mujer","Blanca","bajo","Publico","General",50,62,61,63,51
+"97",57,"Mujer","Blanca","medio","Publico","Academic preparatory",71,65,72,66,56
+"98",100,"Mujer","Blanca","alto","Publico","Academic preparatory",63,65,71,69,71
+"99",1,"Mujer","Hispana","bajo","Publico","Vocational/technical",34,44,40,39,41
+"100",194,"Mujer","Blanca","alto","Privado","Academic preparatory",63,63,69,61,61
+"101",88,"Mujer","Blanca","alto","Publico","Academic preparatory",68,60,64,69,66
+"102",99,"Mujer","Blanca","alto","Publico","General",47,59,56,66,61
+"103",47,"Mujer","Negra","bajo","Publico","Academic preparatory",47,46,49,33,41
+"104",120,"Mujer","Blanca","alto","Publico","Academic preparatory",63,52,54,50,51
+"105",166,"Mujer","Blanca","medio","Publico","Academic preparatory",52,59,53,61,51
+"106",65,"Mujer","Blanca","medio","Publico","Academic preparatory",55,54,66,42,56
+"107",101,"Mujer","Blanca","alto","Publico","Academic preparatory",60,62,67,50,56
+"108",89,"Mujer","Blanca","bajo","Publico","Vocational/technical",35,35,40,51,33
+"109",54,"Mujer","Negra","bajo","Privado","General",47,54,46,50,56
+"110",180,"Mujer","Blanca","alto","Privado","Academic preparatory",71,65,69,58,71
+"111",162,"Mujer","Blanca","medio","Publico","Vocational/technical",57,52,40,61,56
+"112",4,"Mujer","Hispana","bajo","Publico","Academic preparatory",44,50,41,39,51
+"113",131,"Mujer","Blanca","alto","Publico","Academic preparatory",65,59,57,46,66
+"114",125,"Mujer","Blanca","bajo","Publico","Academic preparatory",68,65,58,59,56
+"115",34,"Mujer","Hispana","alto","Privado","Academic preparatory",73,61,57,55,66
+"116",106,"Mujer","Blanca","medio","Publico","Vocational/technical",36,44,37,42,41
+"117",130,"Mujer","Blanca","alto","Publico","General",43,54,55,55,46
+"118",93,"Mujer","Blanca","alto","Publico","Academic preparatory",73,67,62,58,66
+"119",163,"Mujer","Blanca","bajo","Publico","Academic preparatory",52,57,64,58,56
+"120",37,"Mujer","Negra","bajo","Publico","Vocational/technical",41,47,40,39,51
+"121",35,"Mujer","Hispana","bajo","Privado","General",60,54,50,50,51
+"122",87,"Mujer","Blanca","medio","Publico","General",50,52,46,50,56
+"123",73,"Mujer","Blanca","medio","Publico","Academic preparatory",50,52,53,39,56
+"124",151,"Mujer","Blanca","medio","Publico","Vocational/technical",47,46,52,48,46
+"125",44,"Mujer","Negra","bajo","Publico","Vocational/technical",47,62,45,34,46
+"126",152,"Mujer","Blanca","alto","Publico","Academic preparatory",55,57,56,58,61
+"127",105,"Mujer","Blanca","medio","Publico","Academic preparatory",50,41,45,44,56
+"128",28,"Mujer","Asiática","medio","Publico","General",39,53,54,50,41
+"129",91,"Mujer","Blanca","alto","Publico","Vocational/technical",50,49,56,47,46
+"130",45,"Mujer","Negra","bajo","Publico","Vocational/technical",34,35,41,29,26
+"131",116,"Mujer","Blanca","medio","Publico","Academic preparatory",57,59,54,50,56
+"132",33,"Mujer","Asiática","bajo","Publico","Academic preparatory",57,65,72,54,56
+"133",66,"Mujer","Blanca","medio","Publico","Vocational/technical",68,62,56,50,51
+"134",72,"Mujer","Blanca","medio","Publico","Vocational/technical",42,54,47,47,46
+"135",77,"Mujer","Blanca","bajo","Publico","Academic preparatory",61,59,49,44,66
+"136",61,"Mujer","Blanca","alto","Publico","Academic preparatory",76,63,60,67,66
+"137",190,"Mujer","Blanca","medio","Privado","Academic preparatory",47,59,54,58,46
+"138",42,"Mujer","Negra","medio","Publico","Vocational/technical",46,52,55,44,56
+"139",2,"Mujer","Hispana","medio","Publico","Vocational/technical",39,41,33,42,41
+"140",55,"Mujer","Negra","medio","Privado","Academic preparatory",52,49,49,44,61
+"141",19,"Mujer","Hispana","bajo","Publico","General",28,46,43,44,51
+"142",90,"Mujer","Blanca","alto","Publico","Academic preparatory",42,54,50,50,52
+"143",142,"Mujer","Blanca","medio","Publico","Vocational/technical",47,42,52,39,51
+"144",17,"Mujer","Hispana","medio","Publico","Academic preparatory",47,57,48,44,41
+"145",122,"Mujer","Blanca","medio","Publico","Academic preparatory",52,59,58,53,66
+"146",191,"Mujer","Blanca","alto","Privado","Academic preparatory",47,52,43,48,61
+"147",83,"Mujer","Blanca","medio","Publico","Vocational/technical",50,62,41,55,31
+"148",182,"Mujer","Blanca","medio","Privado","Academic preparatory",44,52,43,44,51
+"149",6,"Mujer","Hispana","bajo","Publico","Academic preparatory",47,41,46,40,41
+"150",46,"Mujer","Negra","bajo","Publico","Academic preparatory",45,55,44,34,41
+"151",43,"Mujer","Negra","bajo","Publico","Academic preparatory",47,37,43,42,46
+"152",96,"Mujer","Blanca","alto","Publico","Academic preparatory",65,54,61,58,56
+"153",138,"Mujer","Blanca","medio","Publico","Vocational/technical",43,57,40,50,51
+"154",10,"Mujer","Hispana","medio","Publico","General",47,54,49,53,61
+"155",71,"Mujer","Blanca","medio","Publico","General",57,62,56,58,66
+"156",139,"Mujer","Blanca","medio","Publico","Academic preparatory",68,59,61,55,71
+"157",110,"Mujer","Blanca","medio","Publico","Vocational/technical",52,55,50,54,61
+"158",148,"Mujer","Blanca","medio","Publico","Vocational/technical",42,57,51,47,61
+"159",109,"Mujer","Blanca","medio","Publico","General",42,39,42,42,41
+"160",39,"Mujer","Negra","alto","Publico","Academic preparatory",66,67,67,61,66
+"161",147,"Mujer","Blanca","bajo","Publico","Academic preparatory",47,62,53,53,61
+"162",74,"Mujer","Blanca","medio","Publico","Academic preparatory",57,50,50,51,58
+"163",198,"Mujer","Blanca","alto","Privado","Academic preparatory",47,61,51,63,31
+"164",161,"Mujer","Blanca","bajo","Publico","Academic preparatory",57,62,72,61,61
+"165",112,"Mujer","Blanca","medio","Publico","Academic preparatory",52,59,48,55,61
+"166",69,"Mujer","Blanca","bajo","Publico","Vocational/technical",44,44,40,40,31
+"167",156,"Mujer","Blanca","medio","Publico","Academic preparatory",50,59,53,61,61
+"168",111,"Mujer","Blanca","bajo","Publico","General",39,54,39,47,36
+"169",186,"Mujer","Blanca","medio","Privado","Academic preparatory",57,62,63,55,41
+"170",98,"Mujer","Blanca","bajo","Publico","Vocational/technical",57,60,51,53,37
+"171",119,"Mujer","Blanca","bajo","Publico","General",42,57,45,50,43
+"172",13,"Mujer","Hispana","medio","Publico","Vocational/technical",47,46,39,47,61
+"173",51,"Mujer","Negra","alto","Publico","General",42,36,42,31,39
+"174",26,"Mujer","Asiática","alto","Publico","Academic preparatory",60,59,62,61,51
+"175",36,"Mujer","Negra","bajo","Publico","General",44,49,44,35,51
+"176",135,"Mujer","Blanca","bajo","Publico","Academic preparatory",63,60,65,54,66
+"177",59,"Mujer","Blanca","medio","Publico","Academic preparatory",65,67,63,55,71
+"178",78,"Mujer","Blanca","medio","Publico","Academic preparatory",39,54,54,53,41
+"179",64,"Mujer","Blanca","alto","Publico","Vocational/technical",50,52,45,58,36
+"180",63,"Mujer","Blanca","bajo","Publico","General",52,65,60,56,51
+"181",79,"Mujer","Blanca","medio","Publico","Academic preparatory",60,62,49,50,51
+"182",193,"Mujer","Blanca","medio","Privado","Academic preparatory",44,49,48,39,51
+"183",92,"Mujer","Blanca","alto","Publico","General",52,67,57,63,61
+"184",160,"Mujer","Blanca","medio","Publico","Academic preparatory",55,65,55,50,61
+"185",32,"Mujer","Asiática","alto","Publico","Vocational/technical",50,67,66,66,56
+"186",23,"Mujer","Asiática","bajo","Publico","Academic preparatory",65,65,64,58,71
+"187",158,"Mujer","Blanca","medio","Publico","General",52,54,55,53,51
+"188",25,"Mujer","Asiática","medio","Publico","General",47,44,42,42,36
+"189",188,"Mujer","Blanca","alto","Privado","Academic preparatory",63,62,56,55,61
+"190",52,"Mujer","Negra","bajo","Publico","Academic preparatory",50,46,53,53,66
+"191",124,"Mujer","Blanca","bajo","Publico","Vocational/technical",42,54,41,42,41
+"192",175,"Mujer","Blanca","alto","Privado","General",36,57,42,50,41
+"193",184,"Mujer","Blanca","medio","Privado","Vocational/technical",50,52,53,55,56
+"194",30,"Mujer","Asiática","alto","Publico","Academic preparatory",41,59,42,34,51
+"195",179,"Mujer","Blanca","medio","Privado","Academic preparatory",47,65,60,50,56
+"196",31,"Mujer","Asiática","medio","Privado","General",55,59,52,42,56
+"197",145,"Mujer","Blanca","medio","Publico","Vocational/technical",42,46,38,36,46
+"198",187,"Mujer","Blanca","medio","Privado","General",57,41,57,55,52
+"199",118,"Mujer","Blanca","medio","Publico","General",55,62,58,58,61
+"200",137,"Mujer","Blanca","alto","Publico","Academic preparatory",63,65,65,53,61

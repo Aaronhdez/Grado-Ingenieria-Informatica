@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1322321642 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\trapecio2d_hacer_alumno\mn_aritmeticas.cpp
+	"mn_aritmeticas.h"
+
+1322321728 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\trapecio2d_hacer_alumno\mn_aritmeticas.h
+
+1446228142 source:d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\trapecio2d_hacer_alumno\trapecio2d\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	"../mn_trapecio.h"
+
+1446227844 d:\universidad\segundo\métodos numéricos\prácticas 19-20\prueba 5\trapecio2d_hacer_alumno\mn_trapecio.h
+	"mn_aritmeticas.h"
+	<math.h>
+
