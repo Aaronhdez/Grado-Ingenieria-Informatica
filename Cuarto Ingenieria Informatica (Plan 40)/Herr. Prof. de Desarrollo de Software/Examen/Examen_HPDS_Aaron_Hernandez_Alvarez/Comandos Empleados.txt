@@ -1,0 +1,47 @@
+#Comando empleados en la práctica
+
+#Parte 1
+git add .
+git commit -m "Primer Cambio"
+git tag -a v1.0 -m "texto" 
+git checkout -b develop master
+git checkout -b func1 develop 
+git add .
+git commit -m "Segundo Cambio"
+git commit -m "Tercer Cambio"
+git checkout develop
+git merge func
+git checkout release
+git merge develop 
+git checkout master
+git merge release
+git tag -a v2.0 -m "texto" 
+git remote add origin <remoto>
+git push origin master
+
+#Parte 2
+git checkout -b license develop
+git add . 
+git commit -m "Archivo License"
+git merge license 
+git add . 
+git commit -m "Archivo Author"
+git checkout -b develop 
+git merge author 
+git branch -d author 
+git branch -d license
+
+#Parte 3
+git checkout master
+git reset --hard v1.0
+git pull origin master
+git merge develop
+<Modificacion en remotos>
+git commit -m "Cabmbio resuelto"
+git remote set-url origin <remoto>
+git push origin master
+
+# Comandos
+git add .
+git commit -m "Fichero de comandos"
+git push origin master
