@@ -1,0 +1,4 @@
+USDtoUSD;1.00;
+EURtoEUR;1.00;
+USDtoEUR;0.86;
+EURtoUSD;1.16;
