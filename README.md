@@ -53,3 +53,4 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 - [lm106](https://github.com/lm106)
 - [JavierSuarezSuarez](https://github.com/JavierSuarezSuarez)
 - [Fabbeiru](https://github.com/Fabbeiru)
+- [JuanjoBS00](https://github.com/JuanjoBS00)
