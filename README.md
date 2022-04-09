@@ -44,6 +44,8 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 
 
 ## Colaborators:
+Gente chachi que ha ayudado a lo largo de la carrera:
+
 - [kikenky](https://github.com/Aaronhdez)
 - [karlaogh99](https://github.com/karlaogh99)
 - [ancabdia](https://github.com/ancabdia)
