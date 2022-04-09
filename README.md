@@ -30,6 +30,8 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 - **Cuarto Curso - 2/6  Asignaturas recopiladas**
   - Diseño de Interfaces de Usuario
   - Herramientas Profesionales para el Desarrollo de Software
+  - Gestión del Software I
+  - Otros
 # Helo, fellow computer scientist!
 
 *to-do...*
@@ -37,3 +39,5 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 ## Available Subjects
 
 *to-do...*
+
+## Collaborators
