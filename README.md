@@ -13,7 +13,7 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - *Por recuperar*
 - **Segundo Curso - 7/10  Asignaturas recopiladas**
   - Bases de Datos I
-  - Metodos Estadçisticos para la Computación
+  - Metodos Estadísticos para la Computación
   - Metodos Numéricos para la Computación
   - Periféricos e Interfaces
   - Ingenieria del Software I
