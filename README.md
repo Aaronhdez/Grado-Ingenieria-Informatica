@@ -41,3 +41,15 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 *to-do...*
 
 ## Collaborators
+
+
+## Colaborators:
+- [kikenky](https://github.com/Aaronhdez)
+- [karlaogh99](https://github.com/karlaogh99)
+- [ancabdia](https://github.com/ancabdia)
+- [santaco17](https://github.com/santaco17)
+- [EricManrique](https://github.com/EricManrique)
+- [GabrielHernandez99](https://github.com/GabrielHernandez99)
+- [lm106](https://github.com/lm106)
+- [JavierSuarezSuarez](https://github.com/JavierSuarezSuarez)
+- [Fabbeiru](https://github.com/Fabbeiru)
