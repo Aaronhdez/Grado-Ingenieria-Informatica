@@ -10,4 +10,4 @@ This section contains all the asignments and excercises that I have done during 
 
 ## Subjects that are up-to-date
 
-- **Ingeniería del Software II:** This folder contains diferent examples of software design patterns, such as Observer, Visitor, Abastract Factory... It also Includes MVP and MVC pattern projects, with tehir respective UML diagrams
+- **Ingeniería del Software II:** This folder contains different examples of software design patterns, such as Observer, Visitor, Abastract Factory... It also includes MVP and MVC pattern projects, with their respective UML diagrams
