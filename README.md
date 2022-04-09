@@ -6,7 +6,7 @@ Estos son todos los que, de momento, he podido recuperar. Mi idea es ir actualiz
 
 Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté ya extinto. Y mucho ánimo, que el esfuerzo merece la pena! :wink: :smile:
 
-## Asinganturas disponibles
+## Asignaturas disponibles
 
 - **Primer Curso - 0/10  Asignaturas recopiladas**
 
@@ -27,8 +27,9 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Ingeniería del Software II
   - Programación III
   - Programación IV
-- **Cuarto Curso - 0/6  Asignaturas recopiladas**
-  - *Por recuperar*
+- **Cuarto Curso - 2/6  Asignaturas recopiladas**
+  - Diseño de Interfaces de Usuario
+  - Herramientas Profesionales para el Desarrollo de Software
 # Helo, fellow computer scientist!
 
 *to-do...*
