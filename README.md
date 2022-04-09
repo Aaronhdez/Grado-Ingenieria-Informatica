@@ -27,7 +27,7 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Ingeniería del Software II
   - Programación III
   - Programación IV
-- **Cuarto Curso - 2/6  Asignaturas recopiladas**
+- **Cuarto Curso - 3/6  Asignaturas recopiladas**
   - Diseño de Interfaces de Usuario
   - Herramientas Profesionales para el Desarrollo de Software
   - Gestión del Software I
