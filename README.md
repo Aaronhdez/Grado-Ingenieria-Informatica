@@ -13,6 +13,7 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Análisis Matemático
   - Fundamentos de Computadores
   - Fundamentos de Programación
+
 - **Segundo Curso - 7/10  Asignaturas recopiladas**
   - Bases de Datos I
   - Metodos Estadísticos para la Computación
@@ -21,6 +22,7 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Ingenieria del Software I
   - Programación I
   - Programación II
+
 - **Tercer Curso - 7/10 Asignaturas recopiladas**
   - Bases de Datos II
   - Fundamentos de los Sistemas Inteligentes
@@ -29,6 +31,7 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Ingeniería del Software II
   - Programación III
   - Programación IV
+
 - **Cuarto Curso - 6/6  Asignaturas recopiladas**
   - Diseño de Interfaces de Usuario
   - Herramientas Profesionales para el Desarrollo de Software
