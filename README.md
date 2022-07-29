@@ -13,8 +13,6 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Análisis Matemático
   - Fundamentos de Computadores
   - Fundamentos de Programación
-
-  - *Por recuperar*
 - **Segundo Curso - 7/10  Asignaturas recopiladas**
   - Bases de Datos I
   - Metodos Estadísticos para la Computación
