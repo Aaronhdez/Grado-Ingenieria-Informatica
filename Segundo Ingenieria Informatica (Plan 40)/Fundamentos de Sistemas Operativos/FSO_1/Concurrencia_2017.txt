@@ -1,0 +1,50 @@
+include <pthread.h>
+
+boolean reponiendo = false;
+int pajarosComiendo = 0;
+pthread_mutex_t comedero = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t comer = PTHREAD_COND_INITIALIZER;
+pthread_cond_t reponer = PTHREAD_COND_INITIALIZER;
+
+void pajarito() {
+	
+	while (pajaritoVivo()) {
+		pthread_mutex_lock(&comedero);	
+	
+		while(pajarosComiendo == 3 || reponiedo == true){
+			pthread_cond_wait(&comer, &comedero)
+		}
+
+		pajaros comiendo++;
+		pthread_mutex_unlock(&comedero);
+
+		COMER();
+
+		pthread_mutex_lock(&comedero);
+		pajaros comiendo--;
+		pthread_mutex_unlock(&comedero);
+	
+		pthread_mutex_signal(&reponer);
+		pthread_mutex_unlock(&comedero);
+	}
+
+}
+
+void encargado() {
+
+	while (!jubilado()) {
+		pthread_mutex_lock(&comedero);	
+
+		while(pajarosComiendo > 0){
+			pthread_cond_wait(&reponer, &comedero)
+		}
+
+		reponiendo = true;
+		REPONER_ALPISTE();
+		reponiendo = false;
+
+		pthread_mutex_broadcast(&comer);
+		pthread_mutex_unlock(&comedero);
+	}
+
+}

@@ -1,0 +1,11 @@
+Constructores  	--> testConstructors	HECHO
+cardinal       	--> testConstructors	HECHO
+estáVacío      	--> testEmpty		HECHO
+añade		--> testAdd		HECHO
+pertenece	--> testBelongsTo	HECHO
+unión		--> testJoin
+intersección	--> testIntersection
+diferencia	--> testDifference
+equals		--> testEquals		HECHO
+contenido	--> testIsContained	HECHO
+elementos	--> testElements	#

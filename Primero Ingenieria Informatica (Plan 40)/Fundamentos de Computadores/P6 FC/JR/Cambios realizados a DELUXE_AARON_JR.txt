@@ -1,0 +1,88 @@
+========================================================================
+
+JR RS
+
+Para este caso: El objetivo de esta instrucción es posicionar el pc en la 
+dirección del registro el registro source indicado.
+
+========================================================================
+
+MODIFICACIONES AL CAMINO DE DATOS
+
+Añadimos el cable que sale del registro Source al registro destino y
+lo insertamos donde va la variable 2 del multiplexor que indica a 
+quien suma el PC. Asimismo necesitamos un código de función porque es tipo R, 
+ese código lo colocamos cerca de la la Alu para tenerlo visible.
+
+Hay que modificar S2 indicando en su transición que Func no puede ser igual 
+a 8 para evitar colapsos en el procesado.
+
+========================================================================
+
+MODIFICACIONES A LA MDE
+
+Añdaimos un unico estado, que tendrá función 8 y será de tipo R (código).
+Asignamos las instrucciones cambiando el PC source a 3 teniendo en cuenta 
+la modificación en el camino de datos.
+
+EscrPC<='1';
+
+EscrPCCond<='0';
+
+IoD<='X';
+
+LeerMem<='X';
+
+EscrMem<='0';
+
+EscrIR<='0';
+
+MemaReg<='X';
+
+FuentePC<="11";
+
+ALUOp<="XX";
+
+SelALUB<="XX";
+
+SelALUA<='X';
+
+EscrReg<='0';
+
+RegDest<='X';
+
+=======================================================================
+
+
+00:8c080024; lw $8, 0x24($0)
+04:8c090028; lw $9, 0x28($0)
+08:01095020; add $10, $8, $9
+0c: 01495020; add $10, $10, $9
+10:015f0008; jr $10
+
+24:00000002; constante 2
+28:00000001; constante 1
+
+
+=======================================================================
+
+00:8c080040;		lw $8, 0x40($0)
+04:8c090044;		lw $9, 0x44($0)
+08:8c0d0048;		lw $13, 0x48($0)
+0C:00005020;		add $10, $0, $0
+10:016b5822;		sub $11, $11, $11
+14:00007022;		sub $14, $0, $0
+18:8dcc0050;	bucle:lw $12, 80($14)
+1C:016c5820;		add $11, $11, $12
+20:01485020;		add $10, $10, $8
+24:01cd7020;		add $14, $14, $13
+28:11490001;		beq $10, $9, fin
+2C:08000006;		j bucle
+30:ac0b004c;	fin:	sw $11, 0x4C($0
+
+40:00000001;	constante 1
+44:00000002;	variable N, numero de elementos del vector
+48:00000004;	constante 4
+4C:ffffffff;	variable suma, resultado de la suma de los componentes de un vector
+50:00000007;	primer componente del vector
+54:00000005;	segundo componente del vector	

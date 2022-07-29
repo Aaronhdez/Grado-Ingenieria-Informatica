@@ -1,0 +1,549 @@
+import org.junit.*; 
+import org.junit.runner.JUnitCore; 
+import static org.junit.Assert.*;
+
+// Los conjuntos tienen como máximo 10 elementos. 
+// El conjunto no admite elementos repetidos.
+public class ConjuntoTest{
+    private ConjuntoDeEnteros c1;           //Conjunto A
+    private ConjuntoDeEnteros c2;           //Conjunto B
+    private ConjuntoDeEnteros c3;           //Conjunto D (Negativos)
+    private ConjuntoDeEnteros c4;           //Conjunto E (+10)
+    private ConjuntoDeEnteros cempty;       //Conjunto F1 vacío
+    private ConjuntoDeEnteros cemptyrnd1;   //Conjunto F2 vacío random 1
+    private ConjuntoDeEnteros cemptyrnd2;   //Conjunto F3 vacío random 2
+    private ConjuntoDeEnteros cunique;      //Conjunto G Unico
+    private ConjuntoDeEnteros crep;         //Conjunto H1 Repetidos 1
+    private ConjuntoDeEnteros crep2;        //Conjunto H2 Repetidos 2
+    private ConjuntoDeEnteros crep3;        //Conjunto H3 Repetidos 3
+    private ConjuntoDeEnteros crep4;        //Conjunto H3 Repetidos 4
+    private ConjuntoDeEnteros sample;        //Conjunto uniones
+    private ConjuntoDeEnteros cnine;        //Conjunto uniones
+    
+    
+    
+    /* TEST MÉTODOS BÁSICOS
+    */
+    
+    //Inicialización de valores basicos
+    @Before
+    public void declareBasics() {
+        /// ESTANDARES
+        
+        //Init Conjunto A: Conjunto estándar
+        int[] vector_c1 = new int[]{ 1,2,3,4,5,6,7,8,9,10 };
+        c1 = new ConjuntoDeEnteros(vector_c1);
+        
+        //Init Conjunto B: Conjunto con menos de 10
+        int[] vector_c2 = new int[]{ 1,2,3,4,5,6,9,10 };
+        c2 = new ConjuntoDeEnteros(vector_c2);
+        
+        //Init Conjunto C: Conjunto con algún valor negativo;
+        int[] vector_c3 = new int[]{ 1,2,-3 };
+        c3 = new ConjuntoDeEnteros();
+        
+        //Init Conjunto D: Conjunto +10 valores;
+        int[] vector_c4 = new int[]{ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 };
+        c4 = new ConjuntoDeEnteros(vector_c4);
+        
+        //Init Conjunto G: Conjunto con ununico valor;
+        int[] vector_cunique = new int[]{ 1 };
+        cunique = new ConjuntoDeEnteros();
+        
+        /// VACIOS
+        
+        //Init Conjunto F1: Conjunto vacío;
+        int[] vector_cempty = new int[0];
+        cempty = new ConjuntoDeEnteros();   
+        
+        //Init Conjunto F2: Conjunto vacío rand1;
+        int[] vector_cemptyrnd1 = new int[4];
+        cemptyrnd1 = new ConjuntoDeEnteros(vector_cemptyrnd1);   
+
+        //Init Conjunto F3: Conjunto vacío rand2;
+        int[] vector_cemptyrnd2 = new int[]{};
+        cemptyrnd2 = new ConjuntoDeEnteros(vector_cemptyrnd2);  
+
+        /// REPETIDOS
+
+        //Init Conjunto H1: Conjunto repetidos;
+        int[] vector_rep = new int[]{ 1,2,3,3 }; 
+        crep = new ConjuntoDeEnteros(vector_rep); 
+        
+        //Init Conjunto H2: Conjunto repetidos2;
+        int[] vector_rep2 = new int[]{1,1,1,1,1,1,1,1,1,1,1}; 
+        crep2 = new ConjuntoDeEnteros(vector_rep2);  
+        
+        //Init Conjunto H3: Conjunto repetidos3;
+        int[] vector_rep3 = new int[]{1,1,1,1,1,2,2,2,2,2}; 
+        crep3 = new ConjuntoDeEnteros(vector_rep3); 
+        
+        //Init Conjunto H4: Conjunto repetidos3;
+        int[] vector_rep4 = new int[]{1,1,1,1,1,2,2,2,2,1}; 
+        crep4 = new ConjuntoDeEnteros(vector_rep4);
+        
+        //Init Conjunto A: Conjunto con 9 elementos
+        int[] vector_nine = new int[]{ 1,2,3,4,5,6,7,8,9 };
+        cnine = new ConjuntoDeEnteros(vector_nine);
+    }
+    
+    ///Metodos no matemáticos
+    
+    @Test
+    public void testConstructors(){
+        
+        System.out.println("\n------ PRUEBAS constructores ------");
+        
+        /// ESTANDARES
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con 10 elementos, cardinal() debe dar 10");
+        assertEquals("Constructor de 10", 10, c1.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + c1.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + c1.cardinal() +" \n");    
+        } 
+        
+        try{
+        System.out.println("Se prueba un conjunto con 8 elementos, cardinal() debe dar 8");
+        assertEquals(8, c2.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + c2.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + c2.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba un conjunto con algún valor negativo, cardinal() debe dar 0");
+        assertEquals(0, c3.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + c3.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + c3.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba un conjunto con más de 10 valores, cardinal() debe dar 10");
+        assertEquals(10, c4.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + c4.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + c4.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con 9 elementos, cardinal() debe dar 9");
+        assertEquals("Constructor de 9", 9, cnine.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + cnine.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + cnine.cardinal() +" \n");    
+        } 
+        
+        /// VACIOS
+        
+        try{
+        System.out.println("Se prueba un conjunto vacío, cardinal() debe dar 0");
+        assertEquals(0, cempty.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + cempty.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + cempty.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba el conjunto: int[4]. Debe dar 1");
+        assertEquals(0, cemptyrnd1.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + cemptyrnd1.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + cemptyrnd1.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba el conjunto: {}. Debe dar 0");
+        assertEquals(0, cemptyrnd2.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + cemptyrnd2.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + cemptyrnd2.cardinal() +" \n");    
+        }
+        
+        /// REPETIDOS
+        
+        try{
+        System.out.println("Se prueba un conjunto con valores {1,2,3,3}, cardinal() debe dar 3");
+        assertEquals(3, crep.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + crep.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + crep.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba el conjunto: { 1,1,1,1,1,1,1,1,1,1,1 }. Cardinal() debe dar 1");
+        assertEquals(1, crep2.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + crep2.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + crep2.cardinal() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba el conjunto: { 1,1,1,1,1,2,2,2,2,2 }. Cardinal() debe dar 2");
+        assertEquals(2, crep3.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + crep3.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + crep3.cardinal() +" \n");    
+        }
+
+        try{
+        System.out.println("Se prueba el conjunto: { 1,1,1,1,1,2,2,2,2,1 }. Cardinal() debe dar 2");
+        assertEquals(2, crep4.cardinal());
+        System.out.println("CORRECTO: Resultado de cardinal: " + crep4.cardinal() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado de cardinal: " + crep4.cardinal() +" \n");    
+        }
+        
+        System.out.println("\n");
+        
+    }    
+    
+    @Test
+    public void testEmpty(){
+        
+        System.out.println("\n------ PRUEBAS estaVacio() ------");
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con más de 1 elemento, debe ser false ");
+        assertFalse(c1.estáVacío());
+        System.out.println("CORRECTO: Resultado: " + c1.estáVacío() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c1.estáVacío() +" \n");    
+        }
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con un elemento, debe ser false ");
+        assertFalse(cunique.estáVacío());
+        System.out.println("CORRECTO: Resultado: " + cunique.estáVacío() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cunique.estáVacío() +" \n");    
+        }
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con 9 elementos, debe ser false ");
+        assertFalse(cnine.estáVacío());
+        System.out.println("CORRECTO: Resultado: " + cnine.estáVacío() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cnine.estáVacío() +" \n");    
+        }
+        
+        try{
+        System.out.println("\nSe prueba un conjunto con varios elementos, debe ser false ");
+        assertFalse(c2.estáVacío());
+        System.out.println("CORRECTO: Resultado: " + c2.estáVacío() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c2.estáVacío() +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba un conjunto vacío, debe ser true ");
+        assertTrue(cempty.estáVacío());
+        System.out.println("CORRECTO: Resultado: " + cempty.estáVacío() +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.estáVacío() +" \n");    
+        }
+        
+        System.out.println("\n");
+    }
+    
+    @Test
+    public void testBelongsTo(){
+        
+        System.out.println("\n------ PRUEBAS pertenece() ------");
+        
+        try{
+        System.out.println("\nSe prueba si el 2 pertenece a {1,2,3,4,5,6,9,10}. Debe ser true ");
+        assertTrue(c2.pertenece(2));
+        System.out.println("CORRECTO: Resultado: " + c2.pertenece(2) +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c2.pertenece(2) +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba si el 7 pertenece a {1,2,3,4,5,6,9,10}. Debe ser false ");
+        assertFalse(c2.pertenece(7));
+        System.out.println("CORRECTO: Resultado: " + c2.pertenece(7) +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c2.pertenece(7) +" \n");    
+        }
+        
+        try{
+        System.out.println("Se prueba si el 7 pertenece al conjunto vacío. Debe ser false ");
+        assertFalse(cempty.pertenece(7));
+        System.out.println("CORRECTO: Resultado: " + cempty.pertenece(7) +" \n");
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.pertenece(7) +" \n");    
+        }
+        
+        System.out.println("\n");
+    }
+    
+    @Test
+    public void testEquals(){
+        
+        System.out.println("\n------ PRUEBAS equals() ------");
+        
+        try{
+        System.out.println("\nSe prueban dos conjuntos iguales. Debe ser false");
+        assertTrue(c2.equals(c2));
+        System.out.println("CORRECTO: Resultado: " + c2.equals(c2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c2.equals(c2));    
+        }
+        
+        try{
+        System.out.println("\nSe prueban dos conjuntos distintos. Debe ser false");
+        assertFalse(c1.equals(c2));
+        System.out.println("CORRECTO: Resultado: " + c1.equals(c2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c1.equals(c2));    
+        }
+        
+        try{
+        System.out.println("\nSe prueban dos conjuntos vacíos. Debe ser true");
+        assertTrue(cempty.equals(cemptyrnd2));
+        System.out.println("CORRECTO: Resultado: " + cempty.equals(cemptyrnd2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.equals(cemptyrnd2));    
+        }
+        
+        try{
+        System.out.println("\nSe prueban un vacío y uno normal. Debe ser false");
+        assertFalse(cempty.equals(c2));
+        System.out.println("CORRECTO: Resultado: " + cempty.equals(c2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.equals(c2));    
+        }
+        
+        System.out.println("\n");
+    }
+    
+    @Test
+    public void testIsContained(){
+        
+        System.out.println("\n------ PRUEBAS contenido() ------");
+        
+        // CONJUNTO NO VACÍO CONTRA CONJUNTO NO VACÍO
+        
+        try{
+        System.out.println("\nSe prueba { 1,2,3,4,5,6,9,10 } en { 1,2,3,4,5,6,7,8,9,10 }. Debe ser true");
+        assertTrue(c1.contenido(c2));
+        System.out.println("CORRECTO: Resultado: " + c1.contenido(c2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c1.contenido(c2));    
+        }
+
+        try{
+        System.out.println("\nSe prueba { 1,2,3,4,5,6,7,8,9,10 } en { 1,2,3,4,5,6,9,10 }. Debe ser false");
+        assertFalse(c2.contenido(c1));
+        System.out.println("CORRECTO: Resultado: " + c2.contenido(c1));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c2.contenido(c1));    
+        }
+        
+        try{
+        System.out.println("\nSe prueba { 1,2,3,3 } en { 1,2,3,4,5,6,7,8,9,10 }. Debe ser true");
+        assertTrue(c1.contenido(crep));
+        System.out.println("CORRECTO: Resultado: " + c1.contenido(crep));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c1.contenido(crep));    
+        }
+        
+        try{
+        System.out.println("\nSe prueba { 1,2,3,4,5,6,7,8,9,10 } en {1,1,1,1,1,2,2,2,2,1}. Debe ser false");
+        assertFalse(crep4.contenido(c1));
+        System.out.println("CORRECTO: Resultado: " + crep4.contenido(c1));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + crep4.contenido(c1));    
+        }
+        
+        try{
+        System.out.println("\nSe prueba { 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 } en { 1,2,3,4,5,6,7,8,9,10 }. Debe ser true");
+        assertTrue(c1.contenido(c4));
+        System.out.println("CORRECTO: Resultado: " + c1.contenido(c4));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + c1.contenido(c4));    
+        }
+
+        // CONJUNTO NO VACÍO CONTRA CONJUNTO VACÍO
+
+        try{
+        System.out.println("\nSe prueba { 1,2,3,3 } en {}. Debe ser false");
+        assertFalse(cempty.contenido(crep));
+        System.out.println("CORRECTO: Resultado: " + cempty.contenido(crep));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.contenido(crep));    
+        }
+        
+        // CONJUNTO VACÍO CONTRA CONJUNTO NO VACÍO
+        
+        try{
+        System.out.println("\nSe prueba {} en {}. Debe ser true");
+        assertTrue(cempty.contenido(cemptyrnd2));
+        System.out.println("CORRECTO: Resultado: " + cempty.contenido(cemptyrnd2));
+        } catch(AssertionError e) {
+            System.out.println("ERROR: Resultado: " + cempty.contenido(cemptyrnd2));    
+        }
+        
+        System.out.println("\n");
+    }
+    
+    //Clear 1:
+    
+    @After
+    public void clearIrrelevants(){
+        crep = null;
+        crep2 = null;
+        crep3 = null;
+        crep4 = null;
+        c3 = null;
+        cunique = null;
+    }
+    
+    ///Metodos Matemáticos
+    
+    @Test
+    public void testAdd(){
+        
+        System.out.println("\n------ PRUEBAS añade() ------");
+
+        try{
+            System.out.println("\nAñadir 1 a { 1,2,3,4,5,6,9,10 }");
+            assertFalse(c2.añade(1));
+            System.out.println("El numero ya existe.");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nAñadir 7 a { 1,2,3,4,5,6,9,10 }");
+            assertTrue(c2.añade(7));
+            System.out.println("Correcto: añadido.");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nAñadir 7 a { }");
+            assertTrue(cempty.añade(7));
+            System.out.println("Correcto: añadido.");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nVolver a añadir 7 a { }");
+            assertFalse(cempty.añade(7));
+            System.out.println("El numero ya existe.");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nAñadir 11 a { 1,2,3,4,5,6,7,8,9,10 }");
+            assertFalse(c1.añade(11));
+            System.out.println("Conjunto lleno.");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        System.out.println("\n");
+    }
+    
+    @After
+    public void resetEmpty(){
+        int[] vector_cempty = new int[0];
+        cempty = new ConjuntoDeEnteros(); 
+    }
+    
+    @Before
+    public void declareBasics2() {
+        //Init Conjunto H1: Conjunto repetidos;
+        int[] vector_rep = new int[]{ 1,2,3 }; 
+        crep = new ConjuntoDeEnteros(vector_rep); 
+        
+        //Init Conjunto H2: Conjunto repetidos2;
+        int[] vector_rep2 = new int[]{ 1,2,3,4 }; 
+        crep2 = new ConjuntoDeEnteros(vector_rep2);  
+        
+        //Init Conjunto H3: Conjunto repetidos3;
+        int[] vector_rep3 = new int[]{1,2,3,4,5,}; 
+        crep3 = new ConjuntoDeEnteros(vector_rep3); 
+        
+        //Init Conjunto H4: Conjunto repetidos3;
+        int[] vector_rep4 = new int[]{2,3,4,5,6,7,8,9,10,11}; 
+        crep4 = new ConjuntoDeEnteros(vector_rep4);        
+    }
+    
+    @Test
+    public void testJoin(){
+        
+        System.out.println("\n------ PRUEBAS unión() ------");
+        
+        try{
+            System.out.println("\nUnion {1,2,3} con {1,2,3}");
+            sample = crep.unión(crep);
+            assertEquals(3, sample.cardinal());
+            System.out.println("Unión correcta");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nUnion {} con {1,2,3}");
+            sample = cempty.unión(crep);
+            assertEquals(3, sample.cardinal());
+            System.out.println("Unión correcta");
+        } catch(AssertionError e) {
+            System.out.println("ERROR de ejecución");    
+        }
+        
+        try{
+            System.out.println("\nUnion {1,2,3,4} con {1,2,3}");
+            sample = crep2.unión(crep);
+            assertEquals(4, sample.cardinal());
+            System.out.println("Unión correcta");
+        } catch(AssertionError e) {
+            System.out.println("Error: debe dar 4 elementos y da: " + sample.cardinal());    
+        }
+        
+        try{
+            System.out.println("\nUnion {2,3,4,5,6,7,8,9,10,11} con {1,2,3,4,5}");
+            sample = crep4.unión(crep3);
+            assertEquals(10, sample.cardinal());
+            System.out.println("Unión correcta");
+        } catch(AssertionError e) {
+            System.out.println("Error: debe dar 10 elementos y da: " + sample.cardinal());    
+        }
+        
+        
+        sample = null;
+        System.out.println("\n");
+    }
+    
+    @Test
+    public void testIntersection(){
+        
+        System.out.println("\n------ PRUEBAS intersección() ------");
+        
+        System.out.println("\n");
+    }
+    
+    @Test
+    public void testDifference(){
+        
+        System.out.println("\n------ PRUEBAS diferencia() ------");
+        
+        System.out.println("\n");
+    }
+    @Test
+    public void testElements(){
+        
+        System.out.println("\n------ PRUEBAS elementos() ------");
+        
+        System.out.println("\n");
+    }
+    
+}

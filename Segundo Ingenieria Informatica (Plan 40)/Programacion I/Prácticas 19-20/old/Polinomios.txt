@@ -1,0 +1,191 @@
+
+public class Polinomio {
+	private int[] coeficientes;
+	private int grado;
+	
+	//Constructores
+	public Polinomio(){
+		grado = 0;
+		coeficientes = null;
+	}
+	//Controlar entero nulo.
+	public Polinomio(int[] sample){
+		grado = sample.length-1;
+		//Opcion Soft, asignar la referencia del objeto
+		coeficientes = sample;
+		//Opcion Hard. Crear un for y asignarle los valores uno a uno.
+		coeficientes = new int[sample.length];
+		for(int i=0; i<sample.length;i++) {
+			coeficientes[i] = sample[i];
+		}
+	}
+	
+	//Método grado()
+	public int grado(){
+		return grado;
+	}
+	
+	//Método coeficiente()
+	public int coeficiente(int i){
+		for(int k=0; k<(this.grado+1); k++){
+			if(coeficientes[k] == i){
+				return i;
+			}
+		}
+		return 0;
+	}
+	
+	//Método coeficiente(iny i, int v)
+	//Controlar:
+	// - si i == 0 --> Reduce el grado maximo en 1
+	// - si i <> longitud --> Si sale fuera del rango del array
+	public void coeficiente(int i, int v){
+		//Controlamos que i este dentro del grado del polinomio.
+		if(i>-1 && i<grado) {
+			//Controlamos el 0 en i
+			if(i == 0){
+				grado--;
+			}
+			//Asiganmos el valor
+			this.coeficientes[i] = v;
+		}
+	}
+	//Método coeficientes() 
+	// Devuelve vector invertido
+	// Posicionamos coeficientes al final
+	// Posicionamos res al principio
+	// Desplazamos coeficientes hacia la izquierda y res hacia la derecha
+	// coefi: 2,3,1,-5,4,0
+	// res: 0,4,-5,1,3,2
+	public int[] coeficientes(){
+		int[] res = new int[this.grado+1];
+		int k = 0;
+		for(int i=this.grado; i>0; i--,k++){
+			res[k]=this.coeficientes[i];
+		}
+		return res;
+	}
+	
+	//Método valor()
+	//Controlar:
+	// P(x) == cte --> grado = 0; --> return 0;
+	// P(x)	== nulo --> coeficiente == null;
+	// v == 0 -> retornamos el ultimo valor;
+	
+	public float valor(float v) {
+		float res = 0;
+		// Controlamos si v==0
+		
+		// Si es grado 0 y hay un vector creado
+		if(grado == 0 && coeficientes != null){
+			return coeficientes[0];
+		}
+		
+		//Si es de grado > 0
+		if(grado > 0) {
+			// Si v==0 retornamos solo el ultimo valor
+			if(v == 0){
+				res = this.coeficientes[this.grado];
+				return res;
+			}
+			// Si no lo es incrementamos el resultado en 
+			// x^n * a[i] (potencia del real por su coeficiente)
+			for(int i=0; i<grado-1;i++) {
+				res += potencia(v,i)*coeficientes[i]; 
+			}
+		}
+		return 0;
+	}
+	
+	// Submetodo potencia()
+	// Calcula la potencia de un numero y su grado
+	public float potencia(float x, int n){
+		if(n==0) {
+			return 1;
+		} else {
+			return x*potencia(x,n-1);
+		}
+	}
+	
+	//Método suma()
+	// Calcula la suma de dos polinomios
+	// Controlar:
+	// - Si los dos polinomios estarán siempre en el orden normativo o no.
+	// - Si ambos son del mismo grado.
+	//	 - Si esta vacío alguno de los dos: retornar uno nulo.
+	//	 - Si tiene coeficientes.
+	// 	 - Si lo son: Posición final y a sumar.
+	//   - Si no lo son: reajustar y sumar.
+	public Polinomio suma(Polinomio relative){
+		if(grado == relative.grado){
+			// Igualdad de grados con alguno de los coeficientes null.
+			// Conjunto vacío.
+			Polinomio res = null;
+			if(coeficientes == null) {
+				int[] arraySuma = new int[relative.grado+1];
+				for(int i=0; i<arraySuma.length; i++) {
+					arraySuma[i]=relative.coeficientes[i];
+				}
+				res = new Polinomio(arraySuma);
+			}
+			if(relative.coeficientes == null) {
+				int[] arraySuma = new int[grado+1];
+				for(int i=0; i<arraySuma.length; i++) {
+					arraySuma[i]=coeficientes[i];
+				}
+				res = new Polinomio(arraySuma);
+			}
+			
+			// Igualdad de grados con coeficientes existentes
+			int[] arraySuma = new int[grado+1];
+			for(int i=0;i<arraySuma.length;i++){
+				arraySuma[i] = coeficientes[i] + relative.coeficientes[i];
+			}
+			res = new Polinomio(arraySuma);
+			
+			//Retornamos el nuevo polinomio;
+			return res;
+		} else {
+			
+			Polinomio res = null;
+		}
+	}
+	
+	//Método resta()
+		// Calcula la suma de dos polinomios
+		// Controlar:
+		// - Si los dos polinomios estarán siempre en el orden normativo o no.
+		// - Si ambos son del mismo grado
+		// 	 - Si lo son: Posición final y a restar.
+		//   - Si no lo son: reajustar y restar.
+	public Polinomio resta(Polinomio relative){
+		
+	}	
+	
+	
+	//Método toString()
+	//Controlar:
+	// - Longitud == 0 --> Polinomio vacío -> retornar res.
+	// - Manejo de Strings --> Gestionar el string que resulta.
+	@Override
+	public String toString(){
+		int[] arrayPolinomio = this.coeficientes();
+		String res = "";
+		//Controlamos que longitud == 0
+		if(arrayPolinomio.length==0) {
+			return res;
+		}
+		for(int i=0; i<arrayPolinomio.length; i++){
+			if(arrayPolinomio[i] == 0){
+				res += "0, ";
+			}
+			res += arrayPolinomio[i] + "x^" + i + ", ";
+		}
+		//Eliminamos la coma del final
+		res = res.trim();
+		res = res.substring(res.length()-1);
+		//Retornamos;
+		return res;
+	}
+	
+}

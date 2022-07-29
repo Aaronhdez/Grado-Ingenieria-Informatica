@@ -1,0 +1,15 @@
+Código de una solución incorrecta al problema del Productor_Consumidor.
+El búfer utilizado se maneja de forma circular.
+Los items se insertan en el búfer mediante hilos (hilos productores).
+Los items del búfer se extraen mediante hilos (hilos consumidores).
+
+Buffer_Circular.h: contiene la declaración de tipos y funciones de manejo del búfer.
+Buffer_Circular.c: contiene la definición de las funciones de manjejo del búfer.
+test_hilos.c: contiene la función main y las funciones que ejecutan los hijos productores y consumidores.
+
+La compilación se realiza mediante la orden:
+# gcc -o "nombre_archivo_ejecutable"  test_hilos.c Buffer_Circular.c -lpthread
+"nombre_archivo_ejecutable": nombre del archivo que contendrá el código ejecutable.
+
+La forma correcta de invocar al programa es la siguiente:
+# "nombre_archivo_ejecutable" tamaño_búfer num_productores num_consumidores

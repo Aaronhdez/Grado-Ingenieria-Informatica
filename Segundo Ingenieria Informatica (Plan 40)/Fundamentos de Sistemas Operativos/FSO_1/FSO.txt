@@ -1,0 +1,111 @@
+const int N = ...;
+#include <pthread.h>;
+
+pthread_mutex_t cerrojo = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t condIzq = PTHREAD_COND_INITIALIZER;
+pthread_cond_t condDch = PTHREAD_COND_INITIALIZER;
+int zapatosIzq=0;
+int zapatosDch=0;
+
+class Zapato { ... }
+class Cesto {
+	Cesto (int capacidad);
+	void meterZapatoDerecho(Zapato);
+	void meterZapatoIzquierdo(Zapato);
+	Zapato sacarZapatoDerecho();
+	Zapato sacarZapatoIzquierdo();
+}
+
+Cesto cesto = newCesto(N);
+
+// hilosproductores
+
+// CONDICION:
+	El cesto no puede estar lleno
+
+voidObreroDerechos() {
+	while (true) {
+		pthread_mutex_lock(&cerrojo);
+		while(cesto.lleno()){
+			pthread_cond_wait(&condDch,&cerrojo);
+		}
+		
+		//SECCION CRITICA
+		... fabricar un zapato derecho z
+		cesto.meterZapatoDerecho(Z);
+		zapatosDch++;
+
+		if(zapatosIzq > 0){
+			pthread_cond_signal(&condEmpaquetador);
+		} else {
+			pthread_cond_signal(&condIzq);
+		}
+		
+		pthread_cond_signal(&cond);
+		pthread_mutex_unlock(&cerrojo);
+		pthread_exit(0);
+	}
+}
+
+
+// CONDICION:
+	El cesto no puede estar lleno	
+	
+voidObreroIzquierdos() {
+	while (true) {
+		pthread_mutex_lock(&cerrojo);
+		while(cesto.lleno()){
+			pthread_cond_wait(&condIzq,&cerrojo);
+		}
+		... fabricar un zapato izquierdo Z
+		cesto.meterZapatoIzquierdo(Z);
+		zapatosIzq++;
+		
+		if(zapatosDch > 0){
+			pthread_cond_signal(&condEmpaquetador);
+		} else {
+			pthread_cond_signal(&condDch);
+		}
+		
+		pthread_mutex_unlock(&cerrojo);
+		pthread_exit(0);
+	}
+}
+
+
+// CONDICION:
+	Tiene que haber AL MENOS un zapato de cada pie si o si
+	
+// hiloempaquetador
+voidEmpaquetador() {
+	while (true) {
+		pthread_mutex_lock(&cerrojo);
+		while(zapatosDch == 0 || zapatosIzq == 0){
+			pthread_cond_wait(&condEmpaquetador,&cerrojo);
+		}
+		
+		Zapato izq,dch;
+		izq = cesto.sacarZapatoIzquierdo();
+		dch = cesto.sacarZapatoDerecho();
+		zapatosDch--;
+		zapatosIzq--;
+		... empaquetar zapatos(izq,dch);
+		
+		pthread_cond_signal(&condDch);
+		pthread_cond_signal(&condIzq);
+		pthread_mutex_unlock(&cerrojo);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

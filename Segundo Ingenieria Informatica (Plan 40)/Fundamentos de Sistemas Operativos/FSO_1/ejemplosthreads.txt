@@ -1,0 +1,161 @@
+// ********** PROGRAMA 1
+
+// Ejecucion secuencial de rutina 1, rutina 2 y main
+
+#include #define tamano 10
+
+void rutina1 (){
+int i;
+for (i=0;i printf ("Soy Rutina 1. Iteracion = %d\n",i);
+}
+}
+
+void rutina2 (){
+int i;
+
+for (i=0;i printf ("Soy Rutina 2. Iteracion = %d\n",i);
+}
+}
+
+main ()
+{
+int i;
+rutina1();
+rutina2();
+for (i=0;i printf ("Soy el Main. Iteracion = %d\n",i);
+}
+}
+
+// **********PROGRAMA 2
+
+// Ejecucion Concurrente
+
+// El main NO espera a que los hilos terminen
+
+#include // N U E V O. Libreria manejo hilos
+#include
+#define tamano 10
+
+void* rutina1 (void* arg){ // N U E V O
+int i;
+for (i=0;i printf ("Soy Rutina 1. Iteracion = %d\n",i);
+}
+}
+
+void* rutina2 (void* arg){ // N U E V O
+int i;
+for (i=0;i printf ("Soy Rutina 2. Iteracion = %d\n",i);
+}
+}
+
+main ()
+{
+int i;
+// Lanza hilo 1. Escribe informacion de la Rutina 1
+
+pthread_t hilo1; // N U E V O
+pthread_create (&hilo1, NULL, rutina1, NULL); // N U E V O
+
+// Lanza hilo 2. Escribe informacion de la Rutina 2
+
+pthread_t hilo2; // N U E V O
+pthread_create (&hilo2, NULL, rutina2, NULL); // N U E V O
+
+for (i=0;i printf ("Soy el Main. Iteracion = %d\n",i);
+}
+}
+
+// **********PROGRAMA 3
+
+// Ejecucion Concurrente
+
+// El main SI espera a que los hilos terminen
+
+#include #include
+void* rutina1 (void* arg){
+int i,tamano=(int)arg;
+
+for (i=0;i printf ("Soy Rutina 1. Iteracion = %d\n",i);
+}
+}
+
+void* rutina2 (void* arg){
+int i,tamano=(int)arg;
+
+for (i=0;i printf ("Soy Rutina 2. Iteracion = %d\n",i);
+}
+}
+
+main ()
+{
+int i;
+
+// Lanza hilo 1. Escribe informacion de la Rutina 1
+
+pthread_t hilo1;
+pthread_create (&hilo1, NULL, rutina1, (void *)10);
+
+// Lanza hilo 2. Escribe informacion de la Rutina 2
+
+pthread_t hilo2;
+pthread_create (&hilo2, NULL, rutina2, (void *)10);
+
+for (i=0;i<10;i++){
+printf ("Soy el Main. Iteracion = %d\n",i);
+}
+
+// Espera a que los hilos terminen
+
+void* var; // N U E V O
+pthread_join(hilo1,&var); // N U E V O
+pthread_join(hilo2,&var); // N U E V O
+}
+
+
+// **********PROGRAMA 4
+
+// Ejecucion Concurrente
+
+// El main lanza hilo 1 y espera a que termine para lanzar el hilo 2
+
+#include #include
+#define tamano 10
+
+void* rutina1 (void* arg){
+int i;
+for (i=0;i printf ("Soy Rutina 1. Iteracion = %d\n",i);
+}
+}
+
+void* rutina2 (void* arg){
+int i;
+
+for (i=0;i printf ("Soy Rutina 2. Iteracion = %d\n",i);
+}
+}
+
+main ()
+{
+int i;
+// Lanza hilo 1. Escribe informacion de la Rutina 1
+
+pthread_t hilo1;
+pthread_create (&hilo1, NULL, rutina1, NULL);
+
+// Espera a que termine el hilo 1
+
+void* var; // N U E V O
+pthread_join(hilo1,&var); // N U E V O
+
+// Lanza hilo 2. Escribe informacion de la Rutina 2
+
+pthread_t hilo2;
+pthread_create (&hilo2, NULL, rutina2, NULL);
+
+for (i=0;i printf ("Soy el Main. Iteracion = %d\n",i);
+}
+
+// Espera a que termine el hilo 2
+
+pthread_join(hilo2,&var);
+}
