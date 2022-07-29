@@ -8,7 +8,11 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
 
 ## Asignaturas disponibles
 
-- **Primer Curso - 0/10  Asignaturas recopiladas**
+- **Primer Curso - 4/10  Asignaturas recopiladas**
+  - Álgebra
+  - Análisis Matemático
+  - Fundamentos de Computadores
+  - Fundamentos de Programación
 
   - *Por recuperar*
 - **Segundo Curso - 7/10  Asignaturas recopiladas**
