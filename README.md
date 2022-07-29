@@ -1,5 +1,5 @@
 
-# Hola, amigo informático!
+# Hola, colega!
 Bienvenido a mi humilde repositorio. Aquí encontrarás todos los apuntes que he ido recopilando a lo largo de los años que he cursado el Grado en Ingeniería Informática en la Escuela de Ingeniería Informática de la Universidad de Las Palmas de Gran Canaria.
 
 Estos son todos los que, de momento, he podido recuperar. Mi idea es ir actualizando en la medida de lo posible y, si tengo tiempo, refactorizar aquello que no cumple las directrices de Clean Code.
@@ -31,10 +31,13 @@ Puedes tomar lo que necesites, si te ayuda en la carrera, aunque el plan esté y
   - Diseño de Interfaces de Usuario
   - Herramientas Profesionales para el Desarrollo de Software
   - Gestión del Software I
+  - Gestión del Software II
+  - Metodologías del Desarollo Ágil
+  - Arquitectura de Software
   - Otros
 
 # Colaborators:
-Gente chachi que ha ayudado a lo largo de la carrera:
+Gente chachi que ha contribuido:
 
 - [kikenky](https://github.com/Aaronhdez)
 - [karlaogh99](https://github.com/karlaogh99)
