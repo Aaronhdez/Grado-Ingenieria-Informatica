@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HelpDeskNow</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<link rel="stylesheet" href="./styles/styles.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="jumbotron text-center" style="background-color: #337ab7; color: white">
+            <h1><b>HelpDeskNow</b></h1>
+            <p>Best Ticketing Management Tool</p> 
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <form action="FrontController" method="POST">
+                        <div class="form-group">
+                            <label for="usr">Username:</label>
+                            <input id="usr" type="text" class="form-control" name="user" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input id="pwd" type="password" class="form-control" name="password" value="" />
+                        </div>
+                        <div class="form-group">
+                            <label for="role">Position:</label>
+                            <select class="form-control" id="role" name="userType">
+                              <option>Client</option>
+                              <option>Agent</option>
+                              <option>Admin</option>
+                            </select>
+                        </div> 
+                        <input type="hidden" name="command" value="user.LoginCommand" />
+                        <input class="btn btn-default" type="submit" value="Log In" />
+                    </form>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">Do not have an account yet? <a href="./view/register.html">Register</a></div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <footer class="text-center text-white col-lg-12" style="background-color: #f1f1f1; position: absolute; bottom: 0">
+            <div class="container">
+                <h3>HelpDeskNow</h3>
+                <hr />
+                    <div class="text-center center-block">
+                        <p class="txt-railway">- Best Ticketing Management Tool -</p>
+                        <br />
+                        <a href="#"><i class="fa fa-envelope-square fa-3x social"></i></a>
+                    </div>
+                <hr />
+            </div>
+        </footer>
+    </body>
+</html>
